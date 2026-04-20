@@ -1,0 +1,2717 @@
+{
+  "1": {
+    "category": "4",
+    "core": false,
+    "description": "5]"
+  },
+  "2": {
+    "category": "3",
+    "core": false,
+    "description": "1]"
+  },
+  "3": {
+    "category": "2",
+    "core": false,
+    "description": "1"
+  },
+  "4": {
+    "category": "3",
+    "core": false,
+    "description": "5]"
+  },
+  "5": {
+    "category": "4",
+    "core": false,
+    "description": "6]"
+  },
+  "10": {
+    "category": "15",
+    "core": false,
+    "description": "5]"
+  },
+  "addValues(...)": {
+    "category": "number",
+    "core": false,
+    "description": "Add one number (addend) to another (augend). Returns undefined if either input is not a valid number._____________________________________________✏️ ExampleFirst number: 5Second number: 3↪️ Output: 8"
+  },
+  "addValues": {
+    "category": "number",
+    "core": false,
+    "description": "Add one number (addend) to another (augend). Returns undefined if either input is not a valid number._____________________________________________✏️ ExampleFirst number: 5Second number: 3↪️ Output: 8"
+  },
+  "subtractValues": {
+    "category": "number",
+    "core": false,
+    "description": "Subtracts the subtrahend from the minuend and returns the result. Returns undefined if either input is not a valid number."
+  },
+  "subtractValues(...)": {
+    "category": "number",
+    "core": false,
+    "description": "Subtracts the subtrahend from the minuend and returns the result. Returns undefined if either input is not a valid number."
+  },
+  "values": {
+    "category": "object",
+    "core": false,
+    "description": "\"Retrieves the values of an object, returning an array of all property values. Non-object inputs will be coerced to objects.\""
+  },
+  "values()": {
+    "category": "object",
+    "core": false,
+    "description": "\"Retrieves the values of an object, returning an array of all property values. Non-object inputs will be coerced to objects.\""
+  },
+  "flatten": {
+    "category": "array",
+    "core": false,
+    "description": "\"Flattens nested arrays into a single array, one level deep.\""
+  },
+  "4]}": {
+    "category": "{val: [3",
+    "core": false,
+    "description": "{val: 5}]"
+  },
+  "{val: [\"\"d\"\"]}]</strong><br><br>": {
+    "category": "{val: \"\"c\"\"}",
+    "core": false,
+    "description": ""
+  },
+  "\"\"d\"\"]</strong><br><br>_____________________________________________<br>✏️ <em>Example with nested arrays (one level only)</em><br><br>": {
+    "category": "\"\"c\"\"",
+    "core": false,
+    "description": ""
+  },
+  "4]]}]</strong><br><br>": {
+    "category": "{val: [[3",
+    "core": false,
+    "description": ""
+  },
+  "4]]</strong>\",,,,,,,,": {
+    "category": "[3",
+    "core": false,
+    "description": ""
+  },
+  "flatten()": {
+    "category": "array",
+    "core": false,
+    "description": "\"Flattens nested arrays into a single array, one level deep.\""
+  },
+  "absolute": {
+    "category": "number",
+    "core": false,
+    "description": "Returns the absolute value of the input."
+  },
+  "absolute()": {
+    "category": "number",
+    "core": false,
+    "description": "Returns the absolute value of the input."
+  },
+  "compact": {
+    "category": "array",
+    "core": false,
+    "description": "\"Removes all falsy values (e.g., false, 0, null, undefined, NaN, \"\"\"\") from the input array, returning a new array with only truthy values.\""
+  },
+  "\"\"\"\"": {
+    "category": "\"\"hello\"\"",
+    "core": false,
+    "description": "true"
+  },
+  "compact()": {
+    "category": "array",
+    "core": false,
+    "description": "\"Removes all falsy values (e.g., false, 0, null, undefined, NaN, \"\"\"\") from the input array, returning a new array with only truthy values.\""
+  },
+  "emptyObjectArray": {
+    "category": "value",
+    "core": false,
+    "description": "Returns an Array containing one empty Object in JavaScript."
+  },
+  "emptyArray": {
+    "category": "value",
+    "core": false,
+    "description": "Returns an empty Array in JavaScript."
+  },
+  "wrapInArray": {
+    "category": "array",
+    "core": false,
+    "description": "Wraps the provided input into a new array and returns the array with the input as the only element."
+  },
+  "wrapInArray()": {
+    "category": "array",
+    "core": false,
+    "description": "Wraps the provided input into a new array and returns the array with the input as the only element."
+  },
+  "emptyObject": {
+    "category": "value",
+    "core": false,
+    "description": "Returns an empty Object in JavaScript."
+  },
+  "emptyString": {
+    "category": "value",
+    "core": false,
+    "description": "Returns an empty string in JavaScript."
+  },
+  "isEmpty": {
+    "category": "condition",
+    "core": false,
+    "description": "\"Checks if a value is \"\"empty\"\". Returns true for: empty objects ({}), empty arrays ([]), empty strings (\"\"\"\"), null, undefined, numbers, and booleans.\""
+  },
+  "isEmpty()": {
+    "category": "condition",
+    "core": false,
+    "description": "\"Checks if a value is \"\"empty\"\". Returns true for: empty objects ({}), empty arrays ([]), empty strings (\"\"\"\"), null, undefined, numbers, and booleans.\""
+  },
+  "isEmptyString": {
+    "category": "condition",
+    "core": false,
+    "description": "\"Checks if the provided value is exactly an empty string \"\"\"\".\""
+  },
+  "isEmptyString()": {
+    "category": "condition",
+    "core": false,
+    "description": "\"Checks if the provided value is exactly an empty string \"\"\"\".\""
+  },
+  "isNotEmptyString": {
+    "category": "condition",
+    "core": false,
+    "description": "\"Checks if the provided value is not an empty string \"\"\"\".\""
+  },
+  "isNotEmptyString()": {
+    "category": "condition",
+    "core": false,
+    "description": "\"Checks if the provided value is not an empty string \"\"\"\".\""
+  },
+  "getValue": {
+    "category": "object",
+    "core": true,
+    "description": "Retrieves a value from an object using a single key. For single-level access only. Use getValueByPath for nested object access."
+  },
+  "getValue(...)": {
+    "category": "object",
+    "core": true,
+    "description": "Retrieves a value from an object using a single key. For single-level access only. Use getValueByPath for nested object access."
+  },
+  "isNull": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is null."
+  },
+  "isNull()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is null."
+  },
+  "isDefined": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not undefined."
+  },
+  "isDefined()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not undefined."
+  },
+  "isArray": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is Array."
+  },
+  "isArray()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is Array."
+  },
+  "isNotArray()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not Array."
+  },
+  "isNotArray": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not Array."
+  },
+  "isNotURL": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not valid URL."
+  },
+  "isNotURL()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not valid URL."
+  },
+  "isURL": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is valid URL."
+  },
+  "isURL()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is valid URL."
+  },
+  "isInteger()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is Integer."
+  },
+  "isInteger": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is Integer."
+  },
+  "isNumber": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is Number."
+  },
+  "isNumber()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is Number."
+  },
+  "isValidNumber": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is valid number."
+  },
+  "isValidNumber()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is valid number."
+  },
+  "isString": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is string."
+  },
+  "isString()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is string."
+  },
+  "isStringifiedNumber": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is stringified number."
+  },
+  "isStringifiedNumber()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is stringified number."
+  },
+  "isNotString": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not string."
+  },
+  "isNotString()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not string."
+  },
+  "isObject": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is object."
+  },
+  "isObject()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is object."
+  },
+  "isNotObject": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not object."
+  },
+  "isNotObject()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not object."
+  },
+  "isEqualTo": {
+    "category": "condition",
+    "core": false,
+    "description": "\"Checks if the provided inputs are exactly equal, including case sensitivity. It returns true if they are identical and false otherwise.\""
+  },
+  "isEqualTo(...)": {
+    "category": "condition",
+    "core": false,
+    "description": "\"Checks if the provided inputs are exactly equal, including case sensitivity. It returns true if they are identical and false otherwise.\""
+  },
+  "isFunction()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is function."
+  },
+  "isFunction": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is function."
+  },
+  "isNotFunction": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not function."
+  },
+  "isNotFunction()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not function."
+  },
+  "isFalsy()": {
+    "category": "condition",
+    "core": false,
+    "description": "\"Checks if the provided value is falsy. Falsy values are undefined, null, false, NaN, 0, and '' (empty string).\""
+  },
+  "isFalsy": {
+    "category": "condition",
+    "core": false,
+    "description": "\"Checks if the provided value is falsy. Falsy values are undefined, null, false, NaN, 0, and '' (empty string).\""
+  },
+  "isUndefined": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is exactly undefined."
+  },
+  "isUndefined()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is exactly undefined."
+  },
+  "isPrimitive": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is a primitive value. Return Boolean."
+  },
+  "isPrimitive()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is a primitive value. Return Boolean."
+  },
+  "isNotNumber": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not number."
+  },
+  "isNotNumber()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not number."
+  },
+  "isNotNull": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not null."
+  },
+  "isNotNull()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not null."
+  },
+  "isUnixTimestamp": {
+    "category": "condition",
+    "core": false,
+    "description": "Check if the input is a valid Unix timestamp."
+  },
+  "isUnixTimestamp()": {
+    "category": "condition",
+    "core": false,
+    "description": "Check if the input is a valid Unix timestamp."
+  },
+  "isUnixTimestampSeconds": {
+    "category": "condition",
+    "core": false,
+    "description": "Check if the input is a valid Unix timestamp in seconds format."
+  },
+  "isUnixTimestampSeconds()": {
+    "category": "condition",
+    "core": false,
+    "description": "Check if the input is a valid Unix timestamp in seconds format."
+  },
+  "isUnixTimestampMilliseconds": {
+    "category": "condition",
+    "core": false,
+    "description": "Check if the input is a valid Unix timestamp in milliseconds format."
+  },
+  "isUnixTimestampMilliseconds()": {
+    "category": "condition",
+    "core": false,
+    "description": "Check if the input is a valid Unix timestamp in milliseconds format."
+  },
+  "isNotNaN": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not NaN."
+  },
+  "isNotNaN()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is not NaN."
+  },
+  "isNaN": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is NaN."
+  },
+  "isTruthy": {
+    "category": "condition",
+    "core": false,
+    "description": "\"Checks if the provided value is truthy. Truthy values are values that are not undefined, null, false, NaN, 0, and '' (empty string).\""
+  },
+  "isTruthy()": {
+    "category": "condition",
+    "core": false,
+    "description": "\"Checks if the provided value is truthy. Truthy values are values that are not undefined, null, false, NaN, 0, and '' (empty string).\""
+  },
+  "isSHA256": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is SHA-256 hashed."
+  },
+  "isSHA256()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is SHA-256 hashed."
+  },
+  "isNotJSON()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if a given input is not valid JSON."
+  },
+  "isNotJSON": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if a given input is not valid JSON."
+  },
+  "isJSON()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if a given input is valid JSON."
+  },
+  "isJSON": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if a given input is valid JSON."
+  },
+  "isInfinity": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is Infinity or -Infinity."
+  },
+  "isInfinity()": {
+    "category": "condition",
+    "core": false,
+    "description": "Checks if the provided value is Infinity or -Infinity."
+  },
+  "isLessThan(...)": {
+    "category": "condition",
+    "core": false,
+    "description": "Compare two values to check if the first is strictly less."
+  },
+  "isLessThan": {
+    "category": "condition",
+    "core": false,
+    "description": "Compare two values to check if the first is strictly less."
+  },
+  "isGreaterThan": {
+    "category": "condition",
+    "core": false,
+    "description": "Compare two values to check if the first is strictly greater."
+  },
+  "isGreaterThan(...)": {
+    "category": "condition",
+    "core": false,
+    "description": "Compare two values to check if the first is strictly greater."
+  },
+  "isLessThanOrEqualTo(...)": {
+    "category": "condition",
+    "core": false,
+    "description": "Compare two values to check if the first is less or equal."
+  },
+  "isLessThanOrEqualTo": {
+    "category": "condition",
+    "core": false,
+    "description": "Compare two values to check if the first is less or equal."
+  },
+  "isGreaterThanOrEqualTo": {
+    "category": "condition",
+    "core": false,
+    "description": "Compare two values to check if the first is greater or equal."
+  },
+  "isGreaterThanOrEqualTo(...)": {
+    "category": "condition",
+    "core": false,
+    "description": "Compare two values to check if the first is greater or equal."
+  },
+  "isInRange": {
+    "category": "condition",
+    "core": true,
+    "description": "Check if a value falls within a specified numeric range (inclusive of both min and max values)."
+  },
+  "isInRange(...)": {
+    "category": "condition",
+    "core": true,
+    "description": "Check if a value falls within a specified numeric range (inclusive of both min and max values)."
+  },
+  "consentIsGrantedAdPersonalization": {
+    "category": "gtm",
+    "core": true,
+    "description": "Returns true if the consent type ad_personalization is granted."
+  },
+  "consentIsGrantedAnalyticsStorage": {
+    "category": "gtm",
+    "core": true,
+    "description": "Returns true if the consent type analytics_storage is granted."
+  },
+  "consentIsGrantedPersonalizationStorage": {
+    "category": "gtm",
+    "core": true,
+    "description": "Returns true if the consent type personalization_storage is granted."
+  },
+  "consentIsGrantedSecurityStorage": {
+    "category": "gtm",
+    "core": true,
+    "description": "Returns true if the consent type security_storage is granted."
+  },
+  "consentIsGrantedAdStorage": {
+    "category": "gtm",
+    "core": true,
+    "description": "Returns true if the consent type ad_storage is granted."
+  },
+  "consentIsGrantedFunctionalityStorage": {
+    "category": "gtm",
+    "core": true,
+    "description": "Returns true if the consent type functionality_storage is granted."
+  },
+  "consentIsGrantedAdUserData": {
+    "category": "gtm",
+    "core": true,
+    "description": "Returns true if the consent type ad_user_data is granted."
+  },
+  "gtmIsDebugMode": {
+    "category": "gtm",
+    "core": true,
+    "description": "Returns true if the container is running in debug mode."
+  },
+  "gtmIsPreviewMode": {
+    "category": "gtm",
+    "core": true,
+    "description": "Returns true if the container is running in preview mode."
+  },
+  "convertHoursToMilliseconds": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of hours to the equivalent duration in milliseconds, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertHoursToMilliseconds()": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of hours to the equivalent duration in milliseconds, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertMinutesToMilliseconds": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of minutes to the equivalent duration in milliseconds, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertMinutesToMilliseconds()": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of minutes to the equivalent duration in milliseconds, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertDaysToMilliseconds": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of days to the equivalent duration in milliseconds, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertDaysToMilliseconds()": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of days to the equivalent duration in milliseconds, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertMillisecondsToHours": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of milliseconds to the equivalent duration in hours, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertMillisecondsToHours()": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of milliseconds to the equivalent duration in hours, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertMillisecondsToMinutes": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of milliseconds to the equivalent duration in minutes, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertMillisecondsToMinutes()": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of milliseconds to the equivalent duration in minutes, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertMillisecondsToDays": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of milliseconds to the equivalent duration in days, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertMillisecondsToDays()": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of milliseconds to the equivalent duration in days, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertMillisecondsToSeconds": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of milliseconds to the equivalent duration in seconds, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertMillisecondsToSeconds()": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of milliseconds to the equivalent duration in seconds, useful for time calculations and duration conversions with number input.\""
+  },
+  "gaEcommerceEventList": {
+    "category": "gtm",
+    "core": true,
+    "description": "Provides an array containing all standard GA4 ecommerce event names as defined in the official Google Analytics 4 specification."
+  },
+  "gaLeadGenerationEventList": {
+    "category": "gtm",
+    "core": true,
+    "description": "Provides an array containing all standard GA4 Lead Generation event names as defined in the official Google Analytics 4 specification."
+  },
+  "convertSecondsToMilliseconds": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of seconds to the equivalent duration in milliseconds, useful for time calculations and duration conversions with number input.\""
+  },
+  "convertSecondsToMilliseconds()": {
+    "category": "time",
+    "core": false,
+    "description": "\"Converts a number of seconds to the equivalent duration in milliseconds, useful for time calculations and duration conversions with number input.\""
+  },
+  "falsyTo": {
+    "category": "condition",
+    "core": true,
+    "description": "\"Replaces falsy values (false, 0, \"\"\"\", null, undefined, NaN) with a default value. Returns the original if truthy, otherwise returns the default.\""
+  },
+  "falsyTo(...)": {
+    "category": "condition",
+    "core": true,
+    "description": "\"Replaces falsy values (false, 0, \"\"\"\", null, undefined, NaN) with a default value. Returns the original if truthy, otherwise returns the default.\""
+  },
+  "toLocaleUpperCase": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts the input value to locale uppercase string, or returns undefined if the input is not a valid string.\""
+  },
+  "toLocaleUpperCase()": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts the input value to locale uppercase string, or returns undefined if the input is not a valid string.\""
+  },
+  "toLocaleLowerCase": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts the input value to locale lowercase string, or returns undefined if the input is not a valid string.\""
+  },
+  "toLocaleLowerCase()": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts the input value to locale lowercase string, or returns undefined if the input is not a valid string.\""
+  },
+  "toStartCase()": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts a string to Start Case format by replacing underscores, spaces, and hyphens with single spaces and capitalizing the first letter of each word, or undefined if invalid.\""
+  },
+  "toStartCase": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts a string to Start Case format by replacing underscores, spaces, and hyphens with single spaces and capitalizing the first letter of each word, or undefined if invalid.\""
+  },
+  "toSnakeCase": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts a string to snake_case format by replacing underscores, spaces, and hyphens with single underscores and converting to lowercase, or undefined if invalid.\""
+  },
+  "toKebabCase": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts a string to kebab-case format by replacing underscores, spaces, and hyphens with single hyphens and converting to lowercase, or undefined if invalid.\""
+  },
+  "toKebabCase()": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts a string to kebab-case format by replacing underscores, spaces, and hyphens with single hyphens and converting to lowercase, or undefined if invalid.\""
+  },
+  "toCamelCase": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts a string to camel case format by replacing underscores and hyphens with spaces, then capitalizing each word except the first, or undefined if invalid.\""
+  },
+  "toCamelCase()": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts a string to camel case format by replacing underscores and hyphens with spaces, then capitalizing each word except the first, or undefined if invalid.\""
+  },
+  "toLowerCase()": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts the input value to lowercase string, or returns undefined if the input is not a valid string.\""
+  },
+  "toLowerCase": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts the input value to lowercase string, or returns undefined if the input is not a valid string.\""
+  },
+  "toUpperCase()": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts the input value to uppercase string, or returns undefined if the input is not a valid string.\""
+  },
+  "toUpperCase": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts the input value to uppercase string, or returns undefined if the input is not a valid string.\""
+  },
+  "toUpperFirst()": {
+    "category": "string",
+    "core": true,
+    "description": "Converts the first character of a string to uppercase and leaves the rest of the string unchanged."
+  },
+  "toUpperFirst": {
+    "category": "string",
+    "core": true,
+    "description": "Converts the first character of a string to uppercase and leaves the rest of the string unchanged."
+  },
+  "toBase64()": {
+    "category": "string",
+    "core": false,
+    "description": "\"Converts a string to a Base64-encoded string , making it suitable for transmission or storage in contexts that require Base64 encoding (such as embedding binary data in text files).\""
+  },
+  "toBase64": {
+    "category": "string",
+    "core": false,
+    "description": "\"Converts a string to a Base64-encoded string , making it suitable for transmission or storage in contexts that require Base64 encoding (such as embedding binary data in text files).\""
+  },
+  "toNumber()": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts the input into a number, or returns NaN if the input cannot be converted.\""
+  },
+  "toNumber": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts the input into a number, or returns NaN if the input cannot be converted.\""
+  },
+  "toString": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts a value to a string representation, or returns an empty string if the value is null or undefined.\""
+  },
+  "toString()": {
+    "category": "string",
+    "core": true,
+    "description": "\"Converts a value to a string representation, or returns an empty string if the value is null or undefined.\""
+  },
+  "toFixed": {
+    "category": "number",
+    "core": true,
+    "description": "Rounds a number to a fixed number of decimal places using Math.round. Returns the result as a string with exact decimal precision."
+  },
+  "toFixed(...)": {
+    "category": "number",
+    "core": true,
+    "description": "Rounds a number to a fixed number of decimal places using Math.round. Returns the result as a string with exact decimal precision."
+  },
+  "convertDateToUnixTimestamp()": {
+    "category": "time",
+    "core": false,
+    "description": "\"Convert a date in YYYY-MM-DD format to Unix timestamp (milliseconds since epoch) without using the Date object, returning a number.\""
+  },
+  "convertDateToUnixTimestamp": {
+    "category": "time",
+    "core": false,
+    "description": "\"Convert a date in YYYY-MM-DD format to Unix timestamp (milliseconds since epoch) without using the Date object, returning a number.\""
+  },
+  "extractOrigin()": {
+    "category": "url",
+    "core": false,
+    "description": "Extracts the origin (protocol + hostname + optional port) from a given URL. Returns undefined if the input is invalid or no origin is present."
+  },
+  "extractOrigin": {
+    "category": "url",
+    "core": false,
+    "description": "Extracts the origin (protocol + hostname + optional port) from a given URL. Returns undefined if the input is invalid or no origin is present."
+  },
+  "extractProtocol()": {
+    "category": "url",
+    "core": false,
+    "description": "Extracts the protocol from a given URL. Returns undefined if the input is invalid or no protocol is present."
+  },
+  "extractProtocol": {
+    "category": "url",
+    "core": false,
+    "description": "Extracts the protocol from a given URL. Returns undefined if the input is invalid or no protocol is present."
+  },
+  "convertDateFromBasicToExtended()": {
+    "category": "time",
+    "core": false,
+    "description": "Convert a basic ISO 8601 date from compact format (yyyymmdd) to extended format (yyyy-mm-dd) string."
+  },
+  "convertDateFromExtendedToBasic()": {
+    "category": "time",
+    "core": false,
+    "description": "Convert an extended ISO 8601 date from extended format (yyyy-mm-dd) to basic format (yyyymmdd) string."
+  },
+  "convertDateFromExtendedToBasic": {
+    "category": "time",
+    "core": false,
+    "description": "Convert an extended ISO 8601 date from extended format (yyyy-mm-dd) to basic format (yyyymmdd) string."
+  },
+  "convertUnixTimestampToDate()": {
+    "category": "time",
+    "core": true,
+    "description": "\"Convert a Unix timestamp (seconds since epoch) to YYYY-MM-DD format without using the Date object, returning a formatted date string.\""
+  },
+  "convertUnixTimestampToDate": {
+    "category": "time",
+    "core": true,
+    "description": "\"Convert a Unix timestamp (seconds since epoch) to YYYY-MM-DD format without using the Date object, returning a formatted date string.\""
+  },
+  "toStringRepresentation()": {
+    "category": "string",
+    "core": false,
+    "description": "\"Converts the provided value to its string representation. If the value is null, it returns the string \"\"null\"\". If the value is undefined, it returns the string \"\"undefined\"\".\""
+  },
+  "toStringRepresentation": {
+    "category": "string",
+    "core": false,
+    "description": "\"Converts the provided value to its string representation. If the value is null, it returns the string \"\"null\"\". If the value is undefined, it returns the string \"\"undefined\"\".\""
+  },
+  "toInteger": {
+    "category": "number",
+    "core": true,
+    "description": "\"Converts the input into an integer number, or returns NaN if the input cannot be converted.\""
+  },
+  "toInteger()": {
+    "category": "number",
+    "core": true,
+    "description": "\"Converts the input into an integer number, or returns NaN if the input cannot be converted.\""
+  },
+  "toJsonString()": {
+    "category": "string",
+    "core": false,
+    "description": "\"Converts the input into a JSON string. If the value cannot be parsed, the method will return undefined.\""
+  },
+  "toJsonString": {
+    "category": "string",
+    "core": false,
+    "description": "\"Converts the input into a JSON string. If the value cannot be parsed, the method will return undefined.\""
+  },
+  "hasFragment()": {
+    "category": "url",
+    "core": false,
+    "description": "Checks whether a given URL contains a fragment identifier (hash) in the input string."
+  },
+  "hasFragment": {
+    "category": "url",
+    "core": false,
+    "description": "Checks whether a given URL contains a fragment identifier (hash) in the input string."
+  },
+  "uniq()": {
+    "category": "array",
+    "core": false,
+    "description": "\"Returns a new array with only unique values, removing all duplicates. Preserves the order of first occurrence.\""
+  },
+  "4]</strong>\",,,,,,,,": {
+    "category": "3",
+    "core": false,
+    "description": ""
+  },
+  "uniq": {
+    "category": "array",
+    "core": false,
+    "description": "\"Returns a new array with only unique values, removing all duplicates. Preserves the order of first occurrence.\""
+  },
+  "getLength()": {
+    "category": "value",
+    "core": false,
+    "description": "\"Returns the length of a value, handling different types. Works with string and array types, returns 0 for other types.\""
+  },
+  "getLength": {
+    "category": "value",
+    "core": false,
+    "description": "\"Returns the length of a value, handling different types. Works with string and array types, returns 0 for other types.\""
+  },
+  "trim": {
+    "category": "string",
+    "core": true,
+    "description": "\"Trims any leading or trailing whitespace from a valid string and handles edge cases by returning an empty string\"\"\"\" when the input is not a valid string.\""
+  },
+  "trim()": {
+    "category": "string",
+    "core": true,
+    "description": "\"Trims any leading or trailing whitespace from a valid string and handles edge cases by returning an empty string\"\"\"\" when the input is not a valid string.\""
+  },
+  "ceil()": {
+    "category": "number",
+    "core": false,
+    "description": "\"Rounds the provided input up to the nearest integer, returning the smallest integer greater than or equal to the input value.\""
+  },
+  "ceil": {
+    "category": "number",
+    "core": false,
+    "description": "\"Rounds the provided input up to the nearest integer, returning the smallest integer greater than or equal to the input value.\""
+  },
+  "identity()": {
+    "category": "value",
+    "core": false,
+    "description": "\"Returns the source value as-is, acting as a passthrough function. Useful for applying output transformations or in pipelines where you need to preserve the original value.\""
+  },
+  "identity": {
+    "category": "value",
+    "core": false,
+    "description": "\"Returns the source value as-is, acting as a passthrough function. Useful for applying output transformations or in pipelines where you need to preserve the original value.\""
+  },
+  "sanitizeTextAndRemoveHtml()": {
+    "category": "string",
+    "core": true,
+    "description": "\"Sanitizes a string by removing HTML tags, replacing line breaks and tabs with spaces, collapsing multiple whitespace characters, and trimming leading/trailing whitespace.\""
+  },
+  "sanitizeTextAndRemoveHtml": {
+    "category": "string",
+    "core": true,
+    "description": "\"Sanitizes a string by removing HTML tags, replacing line breaks and tabs with spaces, collapsing multiple whitespace characters, and trimming leading/trailing whitespace.\""
+  },
+  "parseValue": {
+    "category": "value",
+    "core": false,
+    "description": "\"Converts a string representation back to its original data type (boolean, number, null , etc.). Supports primitive types and optional JSON parsing.\""
+  },
+  "parseValue()": {
+    "category": "value",
+    "core": false,
+    "description": "\"Converts a string representation back to its original data type (boolean, number, null , etc.). Supports primitive types and optional JSON parsing.\""
+  },
+  "parseIntValue()": {
+    "category": "number",
+    "core": true,
+    "description": "Attempts to convert a given value into an integer. It extracts the numeric part from the start of the string and stops when it encounters a non-numeric character."
+  },
+  "parseIntValue": {
+    "category": "number",
+    "core": true,
+    "description": "Attempts to convert a given value into an integer. It extracts the numeric part from the start of the string and stops when it encounters a non-numeric character."
+  },
+  "parseJsonString()": {
+    "category": "object",
+    "core": false,
+    "description": "Takes a JSON string as input and returns the corresponding JavaScript object or value. Return undefined if the string is not a valid JSON format."
+  },
+  "parseJsonString": {
+    "category": "object",
+    "core": false,
+    "description": "Takes a JSON string as input and returns the corresponding JavaScript object or value. Return undefined if the string is not a valid JSON format."
+  },
+  "parseFloatValue()": {
+    "category": "number",
+    "core": true,
+    "description": "Attempts to convert a given value into a floating-point number. It extracts the numeric part from the start of the string and stops when it encounters a non-numeric character."
+  },
+  "parseFloatValue": {
+    "category": "number",
+    "core": true,
+    "description": "Attempts to convert a given value into a floating-point number. It extracts the numeric part from the start of the string and stops when it encounters a non-numeric character."
+  },
+  "parseUrlComponents()": {
+    "category": "url",
+    "core": true,
+    "description": "\"Parses a full URL string into its component parts (protocol, host, port, path, query, fragment, etc.), useful for extracting specific URL elements and analyzing web addresses.\""
+  },
+  "search: \"\"?x=1&y=2\"\"": {
+    "category": "pathname: \"\"/page\"\"",
+    "core": false,
+    "description": "hash: \"\"#top\"\"}\",,,,,,,,"
+  },
+  "parseUrlComponents": {
+    "category": "url",
+    "core": true,
+    "description": "\"Parses a full URL string into its component parts (protocol, host, port, path, query, fragment, etc.), useful for extracting specific URL elements and analyzing web addresses.\""
+  },
+  "clamp(...)": {
+    "category": "number",
+    "core": true,
+    "description": "\"Clamps a number within a specified range defined by the min and max values, ensuring the result stays within bounds.\""
+  },
+  "clamp": {
+    "category": "number",
+    "core": true,
+    "description": "\"Clamps a number within a specified range defined by the min and max values, ensuring the result stays within bounds.\""
+  },
+  "includesAll(...)": {
+    "category": "string-array",
+    "core": true,
+    "description": "Checks whether the source content contains all of the provided search terms."
+  },
+  "includesAll": {
+    "category": "string-array",
+    "core": true,
+    "description": "Checks whether the source content contains all of the provided search terms."
+  },
+  "trimEnd(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Trims whitespace or specified characters from the end of a string, removing trailing characters as specified.\""
+  },
+  "trimEnd": {
+    "category": "string",
+    "core": true,
+    "description": "\"Trims whitespace or specified characters from the end of a string, removing trailing characters as specified.\""
+  },
+  "trimStart(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Trims whitespace or specified characters from the start of a string, removing leading characters as specified.\""
+  },
+  "trimStart": {
+    "category": "string",
+    "core": true,
+    "description": "\"Trims whitespace or specified characters from the start of a string, removing leading characters as specified.\""
+  },
+  "countWordsInString()": {
+    "category": "string",
+    "core": true,
+    "description": "Counts the number of non-empty words in a given string. Note: Text should be sanitized first to remove HTML tags and normalize whitespace for accurate word counting."
+  },
+  "countWordsInString": {
+    "category": "string",
+    "core": true,
+    "description": "Counts the number of non-empty words in a given string. Note: Text should be sanitized first to remove HTML tags and normalize whitespace for accurate word counting."
+  },
+  "extractSearchParams(...)": {
+    "category": "url",
+    "core": true,
+    "description": "\"Extracts the search parameters from a URL as an object (paramnames: values), or specific value if key provided. Returns  {} if no params, undefined if invalid.\""
+  },
+  "extractSearchParams": {
+    "category": "url",
+    "core": true,
+    "description": "\"Extracts the search parameters from a URL as an object (paramnames: values), or specific value if key provided. Returns  {} if no params, undefined if invalid.\""
+  },
+  "extract(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Extracts from a string using regex. Returns first capture group if present, otherwise full match. Returns undefinedif no match found.\""
+  },
+  "extract": {
+    "category": "string",
+    "core": true,
+    "description": "\"Extracts from a string using regex. Returns first capture group if present, otherwise full match. Returns undefinedif no match found.\""
+  },
+  "extractFirstSegment(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Returns the first part of a string split by a given separator. If the input is not a valid  string or splitting fails, the original  string is returned.\""
+  },
+  "extractFirstSegment": {
+    "category": "string",
+    "core": true,
+    "description": "\"Returns the first part of a string split by a given separator. If the input is not a valid  string or splitting fails, the original  string is returned.\""
+  },
+  "extractHash()": {
+    "category": "url",
+    "core": true,
+    "description": "Extracts the hash from a given URL. Returns undefined if the input is invalid or no hash is present."
+  },
+  "extractHash": {
+    "category": "url",
+    "core": true,
+    "description": "Extracts the hash from a given URL. Returns undefined if the input is invalid or no hash is present."
+  },
+  "extractHost": {
+    "category": "url",
+    "core": true,
+    "description": "Extracts the host from a given URL. Returns undefined if the input is invalid or no host is present."
+  },
+  "extractHost()": {
+    "category": "url",
+    "core": true,
+    "description": "Extracts the host from a given URL. Returns undefined if the input is invalid or no host is present."
+  },
+  "extractHostname()": {
+    "category": "url",
+    "core": true,
+    "description": "Extracts the hostname from a given URL. Returns undefined if the input is invalid or no hostname is present."
+  },
+  "extractHostname": {
+    "category": "url",
+    "core": true,
+    "description": "Extracts the hostname from a given URL. Returns undefined if the input is invalid or no hostname is present."
+  },
+  "extractNumber()": {
+    "category": "string",
+    "core": true,
+    "description": "Extracts the first number found in a string. Returns undefined if no number is found."
+  },
+  "extractNumber": {
+    "category": "string",
+    "core": true,
+    "description": "Extracts the first number found in a string. Returns undefined if no number is found."
+  },
+  "extractPasword()": {
+    "category": "url",
+    "core": false,
+    "description": "Extracts the password from a given URL. Returns undefined if the input is invalid or no password is present."
+  },
+  "extractPasword": {
+    "category": "url",
+    "core": false,
+    "description": "Extracts the password from a given URL. Returns undefined if the input is invalid or no password is present."
+  },
+  "extractPathname()": {
+    "category": "url",
+    "core": true,
+    "description": "Extracts the pathname from a given URL. Returns undefined if the input is invalid or no pathname is present."
+  },
+  "extractPathname": {
+    "category": "url",
+    "core": true,
+    "description": "Extracts the pathname from a given URL. Returns undefined if the input is invalid or no pathname is present."
+  },
+  "extractPort()": {
+    "category": "url",
+    "core": false,
+    "description": "Extracts the port from a given URL. Returns undefined if the input is invalid or no port is present."
+  },
+  "extractPort": {
+    "category": "url",
+    "core": false,
+    "description": "Extracts the port from a given URL. Returns undefined if the input is invalid or no port is present."
+  },
+  "extractHashParams()": {
+    "category": "url",
+    "core": true,
+    "description": "Parses the fragment(hash) params of a URL and returns an objectof key-value pairs with decoded parameters."
+  },
+  "extractHashParams": {
+    "category": "url",
+    "core": true,
+    "description": "Parses the fragment(hash) params of a URL and returns an objectof key-value pairs with decoded parameters."
+  },
+  "extractUserName()": {
+    "category": "url",
+    "core": false,
+    "description": "Extracts the username from a given URL. Returns undefined if the input is invalid or no username is present."
+  },
+  "extractUserName": {
+    "category": "url",
+    "core": false,
+    "description": "Extracts the username from a given URL. Returns undefined if the input is invalid or no username is present."
+  },
+  "extractSearch()": {
+    "category": "url",
+    "core": true,
+    "description": "Extracts the search from a given URL. Returns undefined if the input is invalid or no search is present."
+  },
+  "extractSearch": {
+    "category": "url",
+    "core": true,
+    "description": "Extracts the search from a given URL. Returns undefined if the input is invalid or no search is present."
+  },
+  "extractSegmentByIndex(...)": {
+    "category": "url",
+    "core": true,
+    "description": "\"Returns the segment at a specific index (Index 0 is root, 1 is first segment) from the pathname.\""
+  },
+  "extractSegmentByIndex": {
+    "category": "url",
+    "core": true,
+    "description": "\"Returns the segment at a specific index (Index 0 is root, 1 is first segment) from the pathname.\""
+  },
+  "entries()": {
+    "category": "object",
+    "core": false,
+    "description": "\"Retrieves the entries of an object (key-value pairs), returning an array where each entry is a [key, value] pair. Non-object inputs will be coerced to objects.\""
+  },
+  "30]]</strong>\",,,,,,,,": {
+    "category": "[\"\"age\"\"",
+    "core": false,
+    "description": ""
+  },
+  "entries": {
+    "category": "object",
+    "core": false,
+    "description": "\"Retrieves the entries of an object (key-value pairs), returning an array where each entry is a [key, value] pair. Non-object inputs will be coerced to objects.\""
+  },
+  "30]]</strong>\"\"\",,,,,,,,": {
+    "category": "[\"\"\"\"age\"\"\"\"",
+    "core": false,
+    "description": ""
+  },
+  "last()": {
+    "category": "array",
+    "core": false,
+    "description": "Returns the last item from the input array. Returns undefined if the array is empty or invalid."
+  },
+  "last": {
+    "category": "array",
+    "core": false,
+    "description": "Returns the last item from the input array. Returns undefined if the array is empty or invalid."
+  },
+  "left(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Returns a substring from the start of a specified string, extracting the specified number of characters from the left.\""
+  },
+  "left": {
+    "category": "string",
+    "core": true,
+    "description": "\"Returns a substring from the start of a specified string, extracting the specified number of characters from the left.\""
+  },
+  "right(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Returns a substring from the end of a specified string, extracting the specified number of characters from the right.\""
+  },
+  "right": {
+    "category": "string",
+    "core": true,
+    "description": "\"Returns a substring from the end of a specified string, extracting the specified number of characters from the right.\""
+  },
+  "filterValue(...)": {
+    "category": "value",
+    "core": true,
+    "description": "\"Tests a value with a callback function. Returns the value if the test passes, undefined otherwise. Useful for conditional value passing in function chains.\""
+  },
+  "filterValue": {
+    "category": "value",
+    "core": true,
+    "description": "\"Tests a value with a callback function. Returns the value if the test passes, undefined otherwise. Useful for conditional value passing in function chains.\""
+  },
+  "find(...)": {
+    "category": "array",
+    "core": false,
+    "description": "\"Finds the first element in an array that satisfies a provided testing function, useful for locating specific items based on custom conditions.\""
+  },
+  "find": {
+    "category": "array",
+    "core": false,
+    "description": "\"Finds the first element in an array that satisfies a provided testing function, useful for locating specific items based on custom conditions.\""
+  },
+  "every": {
+    "category": "array",
+    "core": true,
+    "description": "Returns true if every item in the input array satisfies the given predicate function. Returns false if any item fails or input is invalid."
+  },
+  "8]</strong><br>": {
+    "category": "6",
+    "core": false,
+    "description": ""
+  },
+  "every(...)": {
+    "category": "array",
+    "core": true,
+    "description": "Returns true if every item in the input array satisfies the given predicate function. Returns false if any item fails or input is invalid."
+  },
+  "includesAny": {
+    "category": "array",
+    "core": true,
+    "description": "Checks whether the source content contains any of the provided search terms."
+  },
+  "includesAny(...)": {
+    "category": "array",
+    "core": true,
+    "description": "Checks whether the source content contains any of the provided search terms."
+  },
+  "includesNone": {
+    "category": "array",
+    "core": true,
+    "description": "Checks whether the source content contains none of the provided search terms."
+  },
+  "includesNone(...)": {
+    "category": "array",
+    "core": true,
+    "description": "Checks whether the source content contains none of the provided search terms."
+  },
+  "indexOf(...)": {
+    "category": "string-array",
+    "core": false,
+    "description": "Returns the index of the first occurrence of a specified value in a string or array. Returns -1 if not found."
+  },
+  "indexOf": {
+    "category": "string-array",
+    "core": false,
+    "description": "Returns the index of the first occurrence of a specified value in a string or array. Returns -1 if not found."
+  },
+  "reduce(...)": {
+    "category": "array",
+    "core": false,
+    "description": "Reduces an array to a single value using a callback function and an optional initial value."
+  },
+  "4]</strong><br>": {
+    "category": "3",
+    "core": false,
+    "description": ""
+  },
+  "reduce": {
+    "category": "array",
+    "core": false,
+    "description": "Reduces an array to a single value using a callback function and an optional initial value."
+  },
+  "null": {
+    "category": "value",
+    "core": true,
+    "description": "Returns null in JavaScript."
+  },
+  "TRUE": {
+    "category": "value",
+    "core": true,
+    "description": "Returns true in JavaScript."
+  },
+  "NaN": {
+    "category": "value",
+    "core": false,
+    "description": "Returns NaN in JavaScript"
+  },
+  "FALSE": {
+    "category": "value",
+    "core": true,
+    "description": "Returns false in JavaScript."
+  },
+  "filterArray": {
+    "category": "array",
+    "core": false,
+    "description": "\"Filters items in an array using a callback  function , returning only items for which the callback returns true. Useful for data filtering and conditional selection.\""
+  },
+  "filterArray(...)": {
+    "category": "array",
+    "core": false,
+    "description": "\"Filters items in an array using a callback  function , returning only items for which the callback returns true. Useful for data filtering and conditional selection.\""
+  },
+  "reduceRight(...)": {
+    "category": "array",
+    "core": false,
+    "description": "Reduces an array from right to left using a callback function  and an optional initial value."
+  },
+  "'d']</strong><br>": {
+    "category": "'c'",
+    "core": false,
+    "description": ""
+  },
+  "reduceRight": {
+    "category": "array",
+    "core": false,
+    "description": "Reduces an array from right to left using a callback function  and an optional initial value."
+  },
+  "sumProperty(...)": {
+    "category": "items",
+    "core": true,
+    "description": "\"Sums the specified property across all objects in an array, ignoring items where the property is missing or not a number. Useful for calculating totals from object collections.\""
+  },
+  "sumProperty": {
+    "category": "items",
+    "core": true,
+    "description": "\"Sums the specified property across all objects in an array, ignoring items where the property is missing or not a number. Useful for calculating totals from object collections.\""
+  },
+  "mapTruthiness(...)": {
+    "category": "condition",
+    "core": true,
+    "description": "\"Maps truthy values to one output and falsy values to another output. Returns the truthy value if predicate evaluates to true, otherwise returns the falsy value.\""
+  },
+  "mapTruthiness": {
+    "category": "condition",
+    "core": true,
+    "description": "\"Maps truthy values to one output and falsy values to another output. Returns the truthy value if predicate evaluates to true, otherwise returns the falsy value.\""
+  },
+  "padStart(...)": {
+    "category": "string",
+    "core": true,
+    "description": "Pad a string or number from the left with a specific character to ensure it reaches a defined total length."
+  },
+  "padStart": {
+    "category": "string",
+    "core": true,
+    "description": "Pad a string or number from the left with a specific character to ensure it reaches a defined total length."
+  },
+  "padEnd(...)": {
+    "category": "string",
+    "core": true,
+    "description": "Pad a string or number from the right with a specific character to ensure it reaches a defined total length."
+  },
+  "padEnd": {
+    "category": "string",
+    "core": true,
+    "description": "Pad a string or number from the right with a specific character to ensure it reaches a defined total length."
+  },
+  "head": {
+    "category": "array",
+    "core": false,
+    "description": "Returns the first item of the input array without modifying it. Returns undefined if the array is empty or invalid."
+  },
+  "head()": {
+    "category": "array",
+    "core": false,
+    "description": "Returns the first item of the input array without modifying it. Returns undefined if the array is empty or invalid."
+  },
+  "floor()": {
+    "category": "number",
+    "core": false,
+    "description": "\"Rounds the provided input down to the nearest integer, returning the largest integer less than or equal to the input number.\""
+  },
+  "floor": {
+    "category": "number",
+    "core": false,
+    "description": "\"Rounds the provided input down to the nearest integer, returning the largest integer less than or equal to the input number.\""
+  },
+  "reverse()": {
+    "category": "array",
+    "core": false,
+    "description": "Returns a new array with the elements in reverse order without modifying the original array ."
+  },
+  "reverse": {
+    "category": "array",
+    "core": false,
+    "description": "Returns a new array with the elements in reverse order without modifying the original array ."
+  },
+  "tail()": {
+    "category": "array",
+    "core": false,
+    "description": "Returns all elements of the array except the first one. Returns an empty array if input is invalid or has fewer than 2 elements."
+  },
+  "\"\"d\"\"]</strong><br><br>": {
+    "category": "\"\"c\"\"",
+    "core": false,
+    "description": ""
+  },
+  "encodeURIComponent()": {
+    "category": "url",
+    "core": false,
+    "description": "Encodes a URI component by converting special characters into percent-encoded equivalents. Used for individual URI components like query parameters or path segments in the input string."
+  },
+  "encodeURIComponent": {
+    "category": "url",
+    "core": false,
+    "description": "Encodes a URI component by converting special characters into percent-encoded equivalents. Used for individual URI components like query parameters or path segments in the input string."
+  },
+  "encodeUri()": {
+    "category": "url",
+    "core": false,
+    "description": "\"Encodes an entire URI (Uniform Resource Identifier), converting special characters into percent-encoded equivalents while preserving common URI delimiters in the input string.\""
+  },
+  "encodeUri": {
+    "category": "url",
+    "core": false,
+    "description": "\"Encodes an entire URI (Uniform Resource Identifier), converting special characters into percent-encoded equivalents while preserving common URI delimiters in the input string.\""
+  },
+  "decodeUriComponent()": {
+    "category": "url",
+    "core": false,
+    "description": "\"Decodes a URI component, such as a query parameter or a path segment. This function converts percent-encoded characters back into their original form but leaves delimiters like &, =, and ? intact.\""
+  },
+  "decodeUriComponent": {
+    "category": "url",
+    "core": false,
+    "description": "\"Decodes a URI component, such as a query parameter or a path segment. This function converts percent-encoded characters back into their original form but leaves delimiters like &, =, and ? intact.\""
+  },
+  "decodeUri()": {
+    "category": "url",
+    "core": false,
+    "description": "\"Decodes an entire URI (Uniform Resource Identifier), reversing percent-encoding for special URI characters in the input string.\""
+  },
+  "decodeUri": {
+    "category": "url",
+    "core": false,
+    "description": "\"Decodes an entire URI (Uniform Resource Identifier), reversing percent-encoding for special URI characters in the input string.\""
+  },
+  "decodeEsc()": {
+    "category": "string",
+    "core": true,
+    "description": "Converts %esc% placeholders to spaces. Useful for GTM fields that strip whitespace."
+  },
+  "decodeEsc": {
+    "category": "string",
+    "core": true,
+    "description": "Converts %esc% placeholders to spaces. Useful for GTM fields that strip whitespace."
+  },
+  "countDigits()": {
+    "category": "number",
+    "core": false,
+    "description": "Returns the number of digits in the provided number. Useful for evaluating the length of numeric values."
+  },
+  "countDigits": {
+    "category": "number",
+    "core": false,
+    "description": "Returns the number of digits in the provided number. Useful for evaluating the length of numeric values."
+  },
+  "document.title": {
+    "category": "gtm",
+    "core": true,
+    "description": "Returns the value of document.title."
+  },
+  "endsWith": {
+    "category": "string",
+    "core": false,
+    "description": "\"Checks if the given string ends with the specified substring. Returns true if match found, false otherwise.\""
+  },
+  "endsWith(...)": {
+    "category": "string",
+    "core": false,
+    "description": "\"Checks if the given string ends with the specified substring. Returns true if match found, false otherwise.\""
+  },
+  "startsWith(...)": {
+    "category": "string",
+    "core": false,
+    "description": "Checks if the given string starts with the specified substring. First ensures that the input is neither null nor undefined before performing the check."
+  },
+  "startsWith": {
+    "category": "string",
+    "core": false,
+    "description": "Checks if the given string starts with the specified substring. First ensures that the input is neither null nor undefined before performing the check."
+  },
+  "truncate(...)": {
+    "category": "string",
+    "core": true,
+    "description": "Truncates a string if it is longer than the specified maximum length. The last characters of the truncated string are replaced with the omission string (default is '...')."
+  },
+  "truncate": {
+    "category": "string",
+    "core": true,
+    "description": "Truncates a string if it is longer than the specified maximum length. The last characters of the truncated string are replaced with the omission string (default is '...')."
+  },
+  "getKeys()": {
+    "category": "object",
+    "core": false,
+    "description": "\"Returns an array of a given object's own enumerable property names in the same order that a for...in... loop would. If the input value is not an object, it will be coerced to an object.\""
+  },
+  "getKeys": {
+    "category": "object",
+    "core": false,
+    "description": "\"Returns an array of a given object's own enumerable property names in the same order that a for...in... loop would. If the input value is not an object, it will be coerced to an object.\""
+  },
+  "sort(...)": {
+    "category": "array",
+    "core": false,
+    "description": "Returns a sorted input array . A custom comparison  function  can be provided to control the sort order."
+  },
+  "sort": {
+    "category": "array",
+    "core": false,
+    "description": "Returns a sorted input array . A custom comparison  function  can be provided to control the sort order."
+  },
+  "squareRoot": {
+    "category": "number",
+    "core": false,
+    "description": "Returns the square root of the provided input number. Returns NaN if the input is negative or invalid."
+  },
+  "squareRoot()": {
+    "category": "number",
+    "core": false,
+    "description": "Returns the square root of the provided input number. Returns NaN if the input is negative or invalid."
+  },
+  "sanitizeTextLite()": {
+    "category": "string",
+    "core": true,
+    "description": "\"Sanitizes a string by replacing line breaks and tabs with spaces, collapsing multiple whitespace characters into a single space, and trimming leading/trailing whitespace.\""
+  },
+  "sanitizeTextLite": {
+    "category": "string",
+    "core": true,
+    "description": "\"Sanitizes a string by replacing line breaks and tabs with spaces, collapsing multiple whitespace characters into a single space, and trimming leading/trailing whitespace.\""
+  },
+  "not()": {
+    "category": "condition",
+    "core": true,
+    "description": "Negates/inverts a boolean value or converts truthy/falsy values. Returns false for truthy values and true for falsy values. Commonly used as an output handler to invert the result of other functions."
+  },
+  "not": {
+    "category": "condition",
+    "core": true,
+    "description": "Negates/inverts a boolean value or converts truthy/falsy values. Returns false for truthy values and true for falsy values. Commonly used as an output handler to invert the result of other functions."
+  },
+  "sumPropertyByPath(...)": {
+    "category": "items",
+    "core": true,
+    "description": "Sums a specified numeric property across all objects in an array. Non-numeric or missing values are ignored."
+  },
+  "{amount: 5}]</strong><br>": {
+    "category": "{status: \"\"pending\"\"}",
+    "core": false,
+    "description": ""
+  },
+  "sumPropertyByPath": {
+    "category": "items",
+    "core": true,
+    "description": "Sums a specified numeric property across all objects in an array. Non-numeric or missing values are ignored."
+  },
+  "itemPluckProperty(...)": {
+    "category": "items",
+    "core": true,
+    "description": "\"Extracts values from an array of objects (items) by property name, filtering out null/undefined values and returning a clean list.\""
+  },
+  "itemPluckProperty": {
+    "category": "items",
+    "core": true,
+    "description": "\"Extracts values from an array of objects (items) by property name, filtering out null/undefined values and returning a clean list.\""
+  },
+  "split(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Splits a string  into an array of substrings based on a delimiter, with an optional limit on the number of substrings.\""
+  },
+  "split": {
+    "category": "string",
+    "core": true,
+    "description": "\"Splits a string  into an array of substrings based on a delimiter, with an optional limit on the number of substrings.\""
+  },
+  "safeSplit(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Safely splits a comma-separated string into an array. If the input is not a string, returns the value as-is.\""
+  },
+  "safeSplit": {
+    "category": "string",
+    "core": true,
+    "description": "\"Safely splits a comma-separated string into an array. If the input is not a string, returns the value as-is.\""
+  },
+  "sumProductOfProperties": {
+    "category": "items",
+    "core": true,
+    "description": "\"Multiplies two numeric properties for each object in an array and sums the results, ignoring non-numeric values. Useful for calculating totals like price × quantity across object collections.\""
+  },
+  "quantity: 1}": {
+    "category": "{price: 20",
+    "core": false,
+    "description": "{price: 15"
+  },
+  "sumProductOfProperties(...)": {
+    "category": "items",
+    "core": true,
+    "description": "\"Multiplies two numeric properties for each object in an array and sums the results, ignoring non-numeric values. Useful for calculating totals like price × quantity across object collections.\""
+  },
+  "multiply(...)": {
+    "category": "number",
+    "core": true,
+    "description": "Multiplies two numbers and returns the result. Returns undefined if inputs are not valid number values."
+  },
+  "multiply": {
+    "category": "number",
+    "core": true,
+    "description": "Multiplies two numbers and returns the result. Returns undefined if inputs are not valid number values."
+  },
+  "charAt(...)": {
+    "category": "string",
+    "core": false,
+    "description": "Returns the character at a specified index in a valid string."
+  },
+  "charAt": {
+    "category": "string",
+    "core": false,
+    "description": "Returns the character at a specified index in a valid string."
+  },
+  "getType()": {
+    "category": "value",
+    "core": false,
+    "description": "\"Returns a string describing the given value's type. Unlike typeof, getType differentiates between array and object.\""
+  },
+  "getType": {
+    "category": "value",
+    "core": false,
+    "description": "\"Returns a string describing the given value's type. Unlike typeof, getType differentiates between array and object.\""
+  },
+  "apply": {
+    "category": "value",
+    "core": true,
+    "description": "Applies a function to the input value and returns the result. Returns undefined if the function is not valid."
+  },
+  "reverseDateCompactDay1st()": {
+    "category": "date",
+    "core": false,
+    "description": "\"Reverse a compact date string from \"\"ddmmyyyy\"\" to \"\"yyyymmdd\"\" format with no separators.\""
+  },
+  "reverseDateCompactDay1st": {
+    "category": "date",
+    "core": false,
+    "description": "\"Reverse a compact date string from \"\"ddmmyyyy\"\" to \"\"yyyymmdd\"\" format with no separators.\""
+  },
+  "reverseDateCompactYear1st()": {
+    "category": "date",
+    "core": false,
+    "description": "\"Reverse a compact date string from \"\"yyyymmdd\"\" to \"\"ddmmyyyy\"\" format with no separators.\""
+  },
+  "reverseDateCompactYear1st": {
+    "category": "date",
+    "core": false,
+    "description": "\"Reverse a compact date string from \"\"yyyymmdd\"\" to \"\"ddmmyyyy\"\" format with no separators.\""
+  },
+  "reverseDateSlash()": {
+    "category": "date",
+    "core": false,
+    "description": "\"Reverse a date string between \"\"dd/mm/yyyy\"\" and \"\"yyyy/mm/dd\"\" formats using slash separators.\""
+  },
+  "reverseDateSlash": {
+    "category": "date",
+    "core": false,
+    "description": "\"Reverse a date string between \"\"dd/mm/yyyy\"\" and \"\"yyyy/mm/dd\"\" formats using slash separators.\""
+  },
+  "fromBase64()": {
+    "category": "string",
+    "core": true,
+    "description": "\"Decodes a Base64-encoded string into its original representation, reversing the Base64 encoding process.\""
+  },
+  "fromBase64": {
+    "category": "string",
+    "core": true,
+    "description": "\"Decodes a Base64-encoded string into its original representation, reversing the Base64 encoding process.\""
+  },
+  "getLocalStorage()": {
+    "category": "gtm",
+    "core": true,
+    "description": "Retrieves a raw string value from localStorage and caches it during the current GTM event for performance optimization with string key."
+  },
+  "getLocalStorage": {
+    "category": "gtm",
+    "core": true,
+    "description": "Retrieves a raw string value from localStorage and caches it during the current GTM event for performance optimization with string key."
+  },
+  "getDayNameShort()": {
+    "category": "date",
+    "core": true,
+    "description": "\"Returns the abbreviated name of the day of the week based on the given number where 0 = Monday, 1 = Tuesday, etc.\""
+  },
+  "getDayNameShort": {
+    "category": "date",
+    "core": true,
+    "description": "\"Returns the abbreviated name of the day of the week based on the given number where 0 = Monday, 1 = Tuesday, etc.\""
+  },
+  "getMonthNameShort()": {
+    "category": "date",
+    "core": true,
+    "description": "\"Returns the abbreviated name of the month based on the given number where 0 = Jan, 1 = Feb, etc.\""
+  },
+  "getMonthNameShort": {
+    "category": "date",
+    "core": true,
+    "description": "\"Returns the abbreviated name of the month based on the given number where 0 = Jan, 1 = Feb, etc.\""
+  },
+  "applyChain(...)": {
+    "category": "value",
+    "core": true,
+    "description": "\"Applies a list of functions sequentially to an input value, where each function receives the result of the previous function as its input.\""
+  },
+  "applyChain": {
+    "category": "value",
+    "core": true,
+    "description": "\"Applies a list of functions sequentially to an input value, where each function receives the result of the previous function as its input.\""
+  },
+  "chunk(...)": {
+    "category": "array",
+    "core": false,
+    "description": "Splits an array into chunks (smaller sub-arrays) of the specified size. The last chunk may be smaller if the array can't be split evenly."
+  },
+  "4]": {
+    "category": "[3",
+    "core": false,
+    "description": "[5]]\",,,,,,,,"
+  },
+  "chunk": {
+    "category": "array",
+    "core": false,
+    "description": "Splits an array into chunks (smaller sub-arrays) of the specified size. The last chunk may be smaller if the array can't be split evenly."
+  },
+  "takeItemsRight(...)": {
+    "category": "array",
+    "core": false,
+    "description": "\"Returns the last count elements from the array. If count is 0 or less, an empty array is returned.\""
+  },
+  "takeItemsRight": {
+    "category": "array",
+    "core": false,
+    "description": "\"Returns the last count elements from the array. If count is 0 or less, an empty array is returned.\""
+  },
+  "selectFromArray(...)": {
+    "category": "array",
+    "core": true,
+    "description": "Selects an element from the array based on the provided index. Returns undefined if the index is invalid or array is not valid."
+  },
+  "selectFromArray": {
+    "category": "array",
+    "core": true,
+    "description": "Selects an element from the array based on the provided index. Returns undefined if the index is invalid or array is not valid."
+  },
+  "estimateReadingTime": {
+    "category": "gtm",
+    "core": true,
+    "description": "Estimates reading time in seconds based on word count. Applies a fallback minimum duration if the calculated time is too low."
+  },
+  "estimateReadingTime(...)": {
+    "category": "gtm",
+    "core": true,
+    "description": "Estimates reading time in seconds based on word count. Applies a fallback minimum duration if the calculated time is too low."
+  },
+  "dropItems(...)": {
+    "category": "array",
+    "core": false,
+    "description": "\"Removes the first count elements from the array and returns the rest. If count is 0 or less, the original array is returned.\""
+  },
+  "dropItems()": {
+    "category": "array",
+    "core": false,
+    "description": "\"Removes the first count elements from the array and returns the rest. If count is 0 or less, the original array is returned.\""
+  },
+  "getDayName()": {
+    "category": "date",
+    "core": true,
+    "description": "\"Returns the full name of the day of the week based on the given number where 0 = Monday, 1 = Tuesday, etc.\""
+  },
+  "getDayName": {
+    "category": "date",
+    "core": true,
+    "description": "\"Returns the full name of the day of the week based on the given number where 0 = Monday, 1 = Tuesday, etc.\""
+  },
+  "getDayIndexFromDateString()": {
+    "category": "date",
+    "core": false,
+    "description": "\"Returns the index of the day of the week (0 = Sunday, 6 = Saturday) based on an ISO 8601 date string (YYYY-MM-DD). Does not rely on JavaScript's built-in Date object.\""
+  },
+  "getDayIndexFromDateString": {
+    "category": "date",
+    "core": false,
+    "description": "\"Returns the index of the day of the week (0 = Sunday, 6 = Saturday) based on an ISO 8601 date string (YYYY-MM-DD). Does not rely on JavaScript's built-in Date object.\""
+  },
+  "takeItems(...)": {
+    "category": "array",
+    "core": false,
+    "description": "\"Returns the first count elements from the array. If count is 0 or less, an empty array is returned.\""
+  },
+  "takeItems": {
+    "category": "array",
+    "core": false,
+    "description": "\"Returns the first count elements from the array. If count is 0 or less, an empty array is returned.\""
+  },
+  "dropItemsRight(...)": {
+    "category": "array",
+    "core": false,
+    "description": "\"Removes the last count elements from the array and returns the rest. If count is 0 or less, the original array is returned.\""
+  },
+  "dropItemsRight": {
+    "category": "array",
+    "core": false,
+    "description": "\"Removes the last count elements from the array and returns the rest. If count is 0 or less, the original array is returned.\""
+  },
+  "falseTo(...)": {
+    "category": "value",
+    "core": true,
+    "description": "\"Replaces false with a specific default value, useful for handling boolean conditions and providing fallback values when a condition evaluates to false.\""
+  },
+  "falseTo": {
+    "category": "value",
+    "core": true,
+    "description": "\"Replaces false with a specific default value, useful for handling boolean conditions and providing fallback values when a condition evaluates to false.\""
+  },
+  "undefinedTo": {
+    "category": "value",
+    "core": true,
+    "description": "\"Replaces undefined with a specific default value. Returns the original value if it's not undefined, otherwise returns the default value.\""
+  },
+  "undefinedTo(...)": {
+    "category": "value",
+    "core": true,
+    "description": "\"Replaces undefined with a specific default value. Returns the original value if it's not undefined, otherwise returns the default value.\""
+  },
+  "calculateRatioPercentage(...)": {
+    "category": "number",
+    "core": false,
+    "description": "\"Calculates the percentage ratio of the first value to the difference between two values. Formula: (firstValue / (secondValue - firstValue)) × 100, rounded to nearest integer.\""
+  },
+  "calculateRatioPercentage": {
+    "category": "number",
+    "core": false,
+    "description": "\"Calculates the percentage ratio of the first value to the difference between two values. Formula: (firstValue / (secondValue - firstValue)) × 100, rounded to nearest integer.\""
+  },
+  "assignObjects(...)": {
+    "category": "object",
+    "core": false,
+    "description": "Assigns properties from two objects into a new object. Properties from the second object override those from the first."
+  },
+  "assignObjects": {
+    "category": "object",
+    "core": false,
+    "description": "Assigns properties from two objects into a new object. Properties from the second object override those from the first."
+  },
+  "assignDefaults(...)": {
+    "category": "object",
+    "core": false,
+    "description": "Assigns default values from the second object to the first. Only properties that are undefined in the base object will be assigned."
+  },
+  "assignDefaults": {
+    "category": "object",
+    "core": false,
+    "description": "Assigns default values from the second object to the first. Only properties that are undefined in the base object will be assigned."
+  },
+  "calculateDaysDifference(...)": {
+    "category": "date",
+    "core": true,
+    "description": "Calculate the difference in days between two dates in YYYY-MM-DD format without using the Date object."
+  },
+  "calculateDaysDifference": {
+    "category": "date",
+    "core": true,
+    "description": "Calculate the difference in days between two dates in YYYY-MM-DD format without using the Date object."
+  },
+  "some(...)": {
+    "category": "array",
+    "core": true,
+    "description": "Returns true if at least one item in the array satisfies the given predicate function. Returns false if no items pass or input is invalid."
+  },
+  "some": {
+    "category": "array",
+    "core": true,
+    "description": "Returns true if at least one item in the array satisfies the given predicate function. Returns false if no items pass or input is invalid."
+  },
+  "divide(...)": {
+    "category": "number",
+    "core": true,
+    "description": "Divides the numerator by the denominator and returns the result. Returns undefined if inputs are invalid or division by zero."
+  },
+  "divide": {
+    "category": "number",
+    "core": true,
+    "description": "Divides the numerator by the denominator and returns the result. Returns undefined if inputs are invalid or division by zero."
+  },
+  "stringToPath": {
+    "category": "url",
+    "core": false,
+    "description": "\"Converts a string to a property path array using dot and bracket notation parsing. Supports quoted keys, array indices, and mixed notation.\""
+  },
+  "\"\"name\"\"]</strong>\",,,,,,,,": {
+    "category": "\"\"0\"\"",
+    "core": false,
+    "description": ""
+  },
+  "stringToPath()": {
+    "category": "url",
+    "core": false,
+    "description": "\"Converts a string to a property path array using dot and bracket notation parsing. Supports quoted keys, array indices, and mixed notation.\""
+  },
+  "hasLocalStorageKey()": {
+    "category": "gtm",
+    "core": false,
+    "description": "Check whether a specific key exists in localStorage."
+  },
+  "hasLocalStorageKey": {
+    "category": "gtm",
+    "core": false,
+    "description": "Check whether a specific key exists in localStorage."
+  },
+  "hasQueryString()": {
+    "category": "url",
+    "core": false,
+    "description": "\"Returns true if the given URL contains a query string (i.e., starts with ?param=value).\""
+  },
+  "hasQueryString": {
+    "category": "url",
+    "core": false,
+    "description": "\"Returns true if the given URL contains a query string (i.e., starts with ?param=value).\""
+  },
+  "getMonthName": {
+    "category": "date",
+    "core": true,
+    "description": "\"Returns the full name of the month based on the given number where 0 = January, 1 = February, etc.\""
+  },
+  "getMonthName()": {
+    "category": "date",
+    "core": true,
+    "description": "\"Returns the full name of the month based on the given number where 0 = January, 1 = February, etc.\""
+  },
+  "getDayNameFromDateString()": {
+    "category": "date",
+    "core": true,
+    "description": "\"Returns the name of the day of the week (e.g., \"\"Monday\"\") from an ISO 8601 date string (YYYY-MM-DD) using an internal calculation. Does not rely on JavaScript's built-in Date object.\""
+  },
+  "getDayNameFromDateString": {
+    "category": "date",
+    "core": true,
+    "description": "\"Returns the name of the day of the week (e.g., \"\"Monday\"\") from an ISO 8601 date string (YYYY-MM-DD) using an internal calculation. Does not rely on JavaScript's built-in Date object.\""
+  },
+  "hasParameterWithValue": {
+    "category": "url",
+    "core": false,
+    "description": "Checks if a specific parameter exists and has a non-empty value in a query or fragment string."
+  },
+  "hasParameterWithValue(...)": {
+    "category": "url",
+    "core": false,
+    "description": "Checks if a specific parameter exists and has a non-empty value in a query or fragment string."
+  },
+  "hasKeyEqualTo(...)": {
+    "category": "object",
+    "core": false,
+    "description": "Checks if an object has a top-level own property with the given key and that its value strictly equals the expected value."
+  },
+  "hasKeyEqualTo": {
+    "category": "object",
+    "core": false,
+    "description": "Checks if an object has a top-level own property with the given key and that its value strictly equals the expected value."
+  },
+  "slice(...)": {
+    "category": "string",
+    "core": false,
+    "description": "Extract and return a portion of a string or array starting from the provided starting index and optional ending index."
+  },
+  "slice": {
+    "category": "string",
+    "core": false,
+    "description": "Extract and return a portion of a string or array starting from the provided starting index and optional ending index."
+  },
+  "getCookieValue(...)": {
+    "category": "gtm",
+    "core": true,
+    "description": "\"Returns the first value of a cookie with the given name, or all values if multiple is enabled.\""
+  },
+  "getCookieValue": {
+    "category": "gtm",
+    "core": true,
+    "description": "\"Returns the first value of a cookie with the given name, or all values if multiple is enabled.\""
+  },
+  "findIndexByCallback(...)": {
+    "category": "array",
+    "core": false,
+    "description": "\"Finds the first index in an array for which a provided function returns true, useful for locating specific items based on custom conditions.\""
+  },
+  "findIndexByCallback": {
+    "category": "array",
+    "core": false,
+    "description": "\"Finds the first index in an array for which a provided function returns true, useful for locating specific items based on custom conditions.\""
+  },
+  "join(...)": {
+    "category": "array",
+    "core": true,
+    "description": "\"Joins the elements of an array into a single string, with an optional separator between each element.\""
+  },
+  "join": {
+    "category": "array",
+    "core": true,
+    "description": "\"Joins the elements of an array into a single string, with an optional separator between each element.\""
+  },
+  "toObjectPairs()": {
+    "category": "object",
+    "core": false,
+    "description": "\"Creates an Object where each key is paired with its corresponding value, derived from the provided key-value pairs.\""
+  },
+  "val: 30}]</strong><br>": {
+    "category": "{key: 'age'",
+    "core": false,
+    "description": ""
+  },
+  "val: 'France'}": {
+    "category": "{key: 'country'",
+    "core": false,
+    "description": "{key: 'population'"
+  },
+  "toObjectPairs": {
+    "category": "object",
+    "core": false,
+    "description": "\"Creates an Object where each key is paired with its corresponding value, derived from the provided key-value pairs.\""
+  },
+  "assignObjectsFromPairs(...)": {
+    "category": "object",
+    "core": false,
+    "description": "Assigns properties from two objects into a new object. Properties from the second object override those from the first."
+  },
+  "permissions: [\"\"read\"\"": {
+    "category": "role: \"\"admin\"\"",
+    "core": false,
+    "description": "\"\"write\"\"]}\",,,,,,,,"
+  },
+  "nullTo(...)": {
+    "category": "value",
+    "core": true,
+    "description": "\"Replaces null with a specific default value. Returns the original value if it's not null, otherwise returns the default value.\""
+  },
+  "nullTo": {
+    "category": "value",
+    "core": true,
+    "description": "\"Replaces null with a specific default value. Returns the original value if it's not null, otherwise returns the default value.\""
+  },
+  "getValueByPath(...)": {
+    "category": "object",
+    "core": true,
+    "description": "\"Access a nested property using a dot-separated path. Supports array indices (e.g., user.profile.1.value), but does not support bracket notation (e.g., user[\"\"profile\"\"][1].value).\""
+  },
+  "getValueByPath": {
+    "category": "object",
+    "core": true,
+    "description": "\"Access a nested property using a dot-separated path. Supports array indices (e.g., user.profile.1.value), but does not support bracket notation (e.g., user[\"\"profile\"\"][1].value).\""
+  },
+  "max(...)": {
+    "category": "number",
+    "core": true,
+    "description": "Returns the largest value among the provided arguments."
+  },
+  "max": {
+    "category": "number",
+    "core": true,
+    "description": "Returns the largest value among the provided arguments."
+  },
+  "min(...)": {
+    "category": "number",
+    "core": true,
+    "description": "Returns the minimum value among the provided arguments."
+  },
+  "replaceAll(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Replaces all occurrences of a pattern in a string with a replacement value, useful for comprehensive text substitutions and data cleaning operations.\""
+  },
+  "matchAll": {
+    "category": "string",
+    "core": true,
+    "description": "\"Finds all matches of a regular expression pattern in a string, simulating the behavior of String.prototype.match() with the g flag. Useful for extracting multiple occurrences of patterns.\""
+  },
+  "matchAll(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Finds all matches of a regular expression pattern in a string, simulating the behavior of String.prototype.match() with the g flag. Useful for extracting multiple occurrences of patterns.\""
+  },
+  "currentTimestamp": {
+    "category": "date",
+    "core": true,
+    "description": "\"Returns the current timestamp in milliseconds since epoch (January 1, 1970, 00:00:00 UTC).\""
+  },
+  "matchRegex(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Matches a string against a regular expression pattern and returns the matches, useful for extracting specific patterns and capture groups from text.\""
+  },
+  "matchRegex": {
+    "category": "string",
+    "core": true,
+    "description": "\"Matches a string against a regular expression pattern and returns the matches, useful for extracting specific patterns and capture groups from text.\""
+  },
+  "replaceAllWithRegex(...)": {
+    "category": "string",
+    "core": true,
+    "description": "Replaces all occurrences matching a regular expression pattern in a string with a replacement value."
+  },
+  "replaceAllWithRegex": {
+    "category": "string",
+    "core": true,
+    "description": "Replaces all occurrences matching a regular expression pattern in a string with a replacement value."
+  },
+  "replaceFirst": {
+    "category": "string",
+    "core": true,
+    "description": "\"Replaces the first occurrence of a pattern in a string with a replacement value, useful for simple text substitutions and data cleaning operations.\""
+  },
+  "replaceFirst(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Replaces the first occurrence of a pattern in a string with a replacement value, useful for simple text substitutions and data cleaning operations.\""
+  },
+  "test": {
+    "category": "string",
+    "core": true,
+    "description": "\"Checks if a string matches a specified regular expression (regex). Returns true if a match is found, otherwise false.\""
+  },
+  "test(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Checks if a string matches a specified regular expression (regex). Returns true if a match is found, otherwise false.\""
+  },
+  "search(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Returns the index of the first match, or -1 if no match is found. Simulates the behavior of String.prototype.search() using a regular expression literal.\""
+  },
+  "search": {
+    "category": "string",
+    "core": true,
+    "description": "\"Returns the index of the first match, or -1 if no match is found. Simulates the behavior of String.prototype.search() using a regular expression literal.\""
+  },
+  "getGaMeasurementIds": {
+    "category": "gtm",
+    "core": true,
+    "description": "Extracts all GA4 Measurement IDs from analytics storage. Returns an array of active GA4 property IDs found on the page."
+  },
+  "zipObject(...)": {
+    "category": "object",
+    "core": false,
+    "description": "\"Creates an object from two arrays: one for keys and one for values. If there are more values than keys, extra keys are auto-generated using the provided prefix.\""
+  },
+  "40]</strong><br><br>": {
+    "category": "30",
+    "core": false,
+    "description": ""
+  },
+  "zipObject": {
+    "category": "object",
+    "core": false,
+    "description": "\"Creates an object from two arrays: one for keys and one for values. If there are more values than keys, extra keys are auto-generated using the provided prefix.\""
+  },
+  "omit(...)": {
+    "category": "object",
+    "core": false,
+    "description": "\"Creates a new object by removing all properties whose keys match the values in a provided list. If a value is an array, all its elements will be excluded.\""
+  },
+  "password: \"\"secret\"\"": {
+    "category": "email: \"\"john@example.com\"\"",
+    "core": false,
+    "description": "token: \"\"abc123\"\"}"
+  },
+  "__metadata: {}": {
+    "category": "_internal: true",
+    "core": false,
+    "description": "createdAt: \"\"2024-01-01\"\"}"
+  },
+  "omit": {
+    "category": "object",
+    "core": false,
+    "description": "\"Creates a new object by removing all properties whose keys match the values in a provided list. If a value is an array, all its elements will be excluded.\""
+  },
+  "set(...)": {
+    "category": "object",
+    "core": false,
+    "description": "\"Sets a value in an object using a dot-separated path. If the path doesn’t exist, it creates nested objects as needed.\""
+  },
+  "set": {
+    "category": "object",
+    "core": false,
+    "description": "\"Sets a value in an object using a dot-separated path. If the path doesn’t exist, it creates nested objects as needed.\""
+  },
+  "pick(...)": {
+    "category": "object",
+    "core": false,
+    "description": "\"Creates a new object by selecting only the properties whose keys match the value fields from a list. If a value is an array, all its elements are included.\""
+  },
+  "password: \"\"secret\"\"}</strong><br>": {
+    "category": "email: \"\"john@example.com\"\"",
+    "core": false,
+    "description": ""
+  },
+  "updated: \"\"2024-12-01\"\"}</strong><br>": {
+    "category": "created: \"\"2024-01-01\"\"",
+    "core": false,
+    "description": ""
+  },
+  "pick": {
+    "category": "object",
+    "core": false,
+    "description": "\"Creates a new object by selecting only the properties whose keys match the value fields from a list. If a value is an array, all its elements are included.\""
+  },
+  "hasNested(...)": {
+    "category": "object",
+    "core": false,
+    "description": "Check if a nested property exists in an object using a dot-separated string or an array of keys."
+  },
+  "hasNested": {
+    "category": "object",
+    "core": false,
+    "description": "Check if a nested property exists in an object using a dot-separated string or an array of keys."
+  },
+  "lastIndexOf(...)": {
+    "category": "array",
+    "core": false,
+    "description": "\"Searches for the last occurrence of a specified value in a string or array, starting from a specified position. The position can be given as a fromIndex.\""
+  },
+  "lastIndexOf": {
+    "category": "array",
+    "core": false,
+    "description": "\"Searches for the last occurrence of a specified value in a string or array, starting from a specified position. The position can be given as a fromIndex.\""
+  },
+  "has(...)": {
+    "category": "object",
+    "core": false,
+    "description": "Returns true if the provided object contains a direct property matching the specified key (top-level string keys only)."
+  },
+  "has": {
+    "category": "object",
+    "core": false,
+    "description": "Returns true if the provided object contains a direct property matching the specified key (top-level string keys only)."
+  },
+  "map(...)": {
+    "category": "items",
+    "core": true,
+    "description": "Transforms array items using a callback function or extracts a property from objects. Returns new array with results."
+  },
+  "age: 25}]</strong><br>": {
+    "category": "{name: \"\"Jane\"\"",
+    "core": false,
+    "description": ""
+  },
+  "map": {
+    "category": "items",
+    "core": true,
+    "description": "Transforms array items using a callback function or extracts a property from objects. Returns new array with results."
+  },
+  "completeUrl": {
+    "category": "url",
+    "core": true,
+    "description": "\"Completes relative URLs to absolute URLs based on the current page. Handles root-relative, parent-relative, hash links, and query links.\""
+  },
+  "completeUrl()": {
+    "category": "url",
+    "core": true,
+    "description": "\"Completes relative URLs to absolute URLs based on the current page. Handles root-relative, parent-relative, hash links, and query links.\""
+  },
+  "assignDefaultsDeep(...)": {
+    "category": "object",
+    "core": false,
+    "description": "Recursively assign default values from one object to another. Nested properties are only filled in if they are undefined in the base object. Existing values are preserved."
+  },
+  "language: \"\"en\"\"}}</strong><br>": {
+    "category": "settings: {theme: \"\"dark\"\"",
+    "core": false,
+    "description": ""
+  },
+  "assignDefaultsDeep": {
+    "category": "object",
+    "core": false,
+    "description": "Recursively assign default values from one object to another. Nested properties are only filled in if they are undefined in the base object. Existing values are preserved."
+  },
+  "assignParamsToString(...)": {
+    "category": "string",
+    "core": true,
+    "description": "Adds or replaces parameters in a query or fragment string. By default adds only missing parameters. Supports overwrite mode and case-insensitive matching."
+  },
+  "assignParamsToString": {
+    "category": "string",
+    "core": true,
+    "description": "Adds or replaces parameters in a query or fragment string. By default adds only missing parameters. Supports overwrite mode and case-insensitive matching."
+  },
+  "mergeConcat(...)": {
+    "category": "object",
+    "core": false,
+    "description": "Merges the properties of two objects by concatenating arrays and overwriting non-array properties."
+  },
+  "\"\"active\"\"": {
+    "category": "tags: [\"\"user\"\"",
+    "core": false,
+    "description": "\"\"premium\"\"]}"
+  },
+  "\"\"b\"\"": {
+    "category": "items: [\"\"a\"\"",
+    "core": false,
+    "description": "\"\"c\"\"]}"
+  },
+  "category: \"\"electronics\"\"}</strong>\",,,,,,,,": {
+    "category": "price: 99",
+    "core": false,
+    "description": ""
+  },
+  "mergeConcat": {
+    "category": "object",
+    "core": false,
+    "description": "Merges the properties of two objects by concatenating arrays and overwriting non-array properties."
+  },
+  "omitParamsFromString(...)": {
+    "category": "string",
+    "core": true,
+    "description": "Remove specific parameters from a query or fragment string. Matching can be case-insensitive."
+  },
+  "omitParamsFromString": {
+    "category": "string",
+    "core": true,
+    "description": "Remove specific parameters from a query or fragment string. Matching can be case-insensitive."
+  },
+  "pickParamsFromString(...)": {
+    "category": "string",
+    "core": true,
+    "description": "\"Extract specific parameters from a query or fragment string, with optional case-insensitive matching.\""
+  },
+  "pickParamsFromString": {
+    "category": "string",
+    "core": true,
+    "description": "\"Extract specific parameters from a query or fragment string, with optional case-insensitive matching.\""
+  },
+  "concatenateValues(...)": {
+    "category": "array",
+    "core": true,
+    "description": "\"Concatenate list values, and optionally add a separator (e.g., comma).\""
+  },
+  "concatenateValues": {
+    "category": "array",
+    "core": true,
+    "description": "\"Concatenate list values, and optionally add a separator (e.g., comma).\""
+  },
+  "buildUrlFromParts(...)": {
+    "category": "url",
+    "core": true,
+    "description": "\"Builds a URL string from selected parts of a parsed URL object. Pick only the components you need: protocol, host, pathname, search, hash.\""
+  },
+  "buildUrlFromParts": {
+    "category": "url",
+    "core": true,
+    "description": "\"Builds a URL string from selected parts of a parsed URL object. Pick only the components you need: protocol, host, pathname, search, hash.\""
+  },
+  "mergeConcatDeep(...)": {
+    "category": "object",
+    "core": false,
+    "description": "\"Deep merges two objects recursively with array concatenation. Nested objects are merged, arrays are concatenated, primitives are overridden.\""
+  },
+  "name: \"\"add\"\"}</strong>": {
+    "category": "\"\"c\"\"]",
+    "core": false,
+    "description": ""
+  },
+  "mergeConcatDeep": {
+    "category": "object",
+    "core": false,
+    "description": "\"Deep merges two objects recursively with array concatenation. Nested objects are merged, arrays are concatenated, primitives are overridden.\""
+  },
+  "getDataLayerValue()": {
+    "category": "gtm",
+    "core": true,
+    "description": "Retrieves a value from the GTM dataLayer using GTM's API (works with any dataLayer name). Supports dot notation to access nested properties and array indices."
+  },
+  "getDataLayerValue": {
+    "category": "gtm",
+    "core": true,
+    "description": "Retrieves a value from the GTM dataLayer using GTM's API (works with any dataLayer name). Supports dot notation to access nested properties and array indices."
+  },
+  "classifyByThreshold(...)": {
+    "category": "number",
+    "core": true,
+    "description": "\"Classifies numeric values into categories based on threshold ranges. First matching range wins. Useful for grades, performance tiers, and scoring systems.\""
+  },
+  "Max: 3000": {
+    "category": "Category: Fast</strong><br><strong>Min: 1000",
+    "core": false,
+    "description": "Category: MediumMin: 3000"
+  },
+  "classifyByThreshold": {
+    "category": "number",
+    "core": true,
+    "description": "\"Classifies numeric values into categories based on threshold ranges. First matching range wins. Useful for grades, performance tiers, and scoring systems.\""
+  },
+  "getRootDomain!": {
+    "category": "gtm",
+    "core": false,
+    "description": "\"Detect the root domain where cookies can be set by testing progressively higher domain levels (e.g., returns example.com from sub.example.com)\""
+  },
+  "getRootDomain!()": {
+    "category": "gtm",
+    "core": false,
+    "description": "\"Detect the root domain where cookies can be set by testing progressively higher domain levels (e.g., returns example.com from sub.example.com)\""
+  },
+  "getDataLayerCurrent": {
+    "category": "gtm",
+    "core": true,
+    "description": "\"Retrieves the current dataLayer event object from window.dataLayer, or a first-level property value if specified.\""
+  },
+  "getDataLayerCurrent()": {
+    "category": "gtm",
+    "core": true,
+    "description": "\"Retrieves the current dataLayer event object from window.dataLayer, or a first-level property value if specified.\""
+  },
+  "regexTableLookupCallback(...)": {
+    "category": "value",
+    "core": true,
+    "description": "Tests input string against a list of regex patterns and returns the value of the first match. Optionally handles non-matches with a default or callback."
+  },
+  "regexTableLookupCallback": {
+    "category": "value",
+    "core": true,
+    "description": "Tests input string against a list of regex patterns and returns the value of the first match. Optionally handles non-matches with a default or callback."
+  },
+  "regexTableLookupAll(...)": {
+    "category": "value",
+    "core": true,
+    "description": "Performs pattern matching against a string using a table of regex patterns and returns an array of all corresponding values for matching patterns."
+  },
+  "regexTableLookupAll": {
+    "category": "value",
+    "core": true,
+    "description": "Performs pattern matching against a string using a table of regex patterns and returns an array of all corresponding values for matching patterns."
+  },
+  "getDataLayerByEvent": {
+    "category": "gtm",
+    "core": true,
+    "description": "\"Retrieves the most recent matching event  dataLayer event object from window.dataLayer, or a first-level property value if specified.\""
+  },
+  "getDataLayerByEvent(...)": {
+    "category": "gtm",
+    "core": true,
+    "description": "\"Retrieves the most recent matching event  dataLayer event object from window.dataLayer, or a first-level property value if specified.\""
+  },
+  "pickNested": {
+    "category": "object",
+    "core": false,
+    "description": "\"Creates a new object by selecting only the properties whose keys match the value fields from a list. If a value is an array, all its elements are included.\""
+  },
+  "pickNested(...)": {
+    "category": "object",
+    "core": false,
+    "description": "\"Creates a new object by selecting only the properties whose keys match the value fields from a list. If a value is an array, all its elements are included.\""
+  },
+  "findClosestElement": {
+    "category": "dom",
+    "core": false,
+    "description": "\"Traverses up the DOM from a starting element to find the closest parent where an attribute matches a value. Returns the dataLayer path to the matching element, or undefined if not found.\""
+  },
+  "and element visibility triggers.\",,,,,,,,": {
+    "category": "form submit",
+    "core": false,
+    "description": ""
+  },
+  "findClosestElement(...)": {
+    "category": "dom",
+    "core": false,
+    "description": "\"Traverses up the DOM from a starting element to find the closest parent where an attribute matches a value. Returns the dataLayer path to the matching element, or undefined if not found.\""
+  },
+  "convertTimestampToDayIndex()": {
+    "category": "date",
+    "core": true,
+    "description": "Converts a Unix timestamp in milliseconds to a day index since epoch. Useful for measuring days between two events by subtracting day indices in your analytics tool."
+  },
+  "convertTimestampToDayIndex": {
+    "category": "date",
+    "core": true,
+    "description": "Converts a Unix timestamp in milliseconds to a day index since epoch. Useful for measuring days between two events by subtracting day indices in your analytics tool."
+  },
+  "applyFromObject": {
+    "category": "object",
+    "core": true,
+    "description": "Extracts properties from an object and passes them as arguments to an apply-mode function. Useful for computing new values from existing object properties when chaining with itemSetProperty."
+  },
+  "applyFromObject(...)": {
+    "category": "object",
+    "core": true,
+    "description": "Extracts properties from an object and passes them as arguments to an apply-mode function. Useful for computing new values from existing object properties when chaining with itemSetProperty."
+  },
+  "itemSet(...)": {
+    "category": "items",
+    "core": true,
+    "description": "Adds or overwrites a property on each object in an array. Preserves all existing properties. Useful for adding computed fields like totals or margins to item collections."
+  },
+  "itemSet": {
+    "category": "items",
+    "core": true,
+    "description": "Adds or overwrites a property on each object in an array. Preserves all existing properties. Useful for adding computed fields like totals or margins to item collections."
+  },
+  "itemOmit": {
+    "category": "items",
+    "core": false,
+    "description": "\"Removes specified properties from each object in an array, returning a new array with only the remaining properties. Useful for stripping sensitive or unnecessary fields before sending to analytics._"
+  },
+  "itemOmit(...)": {
+    "category": "items",
+    "core": false,
+    "description": "\"Removes specified properties from each object in an array, returning a new array with only the remaining properties. Useful for stripping sensitive or unnecessary fields before sending to analytics._"
+  },
+  "itemAssignDefaults": {
+    "category": "items",
+    "core": false,
+    "description": "\"Assigns default values to missing or undefined properties on each object in an array. Existing values are always preserved. Useful for normalizing GA4 items before sending to analytics.______________"
+  },
+  "itemAssignDefaults(...)": {
+    "category": "items",
+    "core": false,
+    "description": "\"Assigns default values to missing or undefined properties on each object in an array. Existing values are always preserved. Useful for normalizing GA4 items before sending to analytics.______________"
+  },
+  "calculateDiffRatio": {
+    "category": "number",
+    "core": false,
+    "description": "\"Calculates the ratio of the difference between two values relative to the first value. Formula: (value - reference) / value. Useful for margin, discount rate, and proportional difference.\""
+  },
+  "calculateDiffRatio(...)": {
+    "category": "number",
+    "core": false,
+    "description": "\"Calculates the ratio of the difference between two values relative to the first value. Formula: (value - reference) / value. Useful for margin, discount rate, and proportional difference.\""
+  },
+  "itemMapProperties": {
+    "category": "items",
+    "core": true,
+    "description": "Maps each item in an array of objects to a new object with a fixed set of key/value pairs. Supports optional type conversion and default values for falsy properties."
+  },
+  "itemMapProperties(...)": {
+    "category": "items",
+    "core": true,
+    "description": "Maps each item in an array of objects to a new object with a fixed set of key/value pairs. Supports optional type conversion and default values for falsy properties."
+  },
+  "🧩 NOT": {
+    "category": "logic",
+    "core": true,
+    "description": "\"Checks the provided list of parameters and returns true if all values are falsy, false otherwise.\""
+  },
+  "🧩 IF (else)": {
+    "category": "logic",
+    "core": true,
+    "description": "Returns one of two values based on a boolean condition flag."
+  },
+  "🧩 IF AND/OR": {
+    "category": "logic",
+    "core": true,
+    "description": "\"Applies AND if condition is true, OR if false.\""
+  },
+  "🧩 XOR": {
+    "category": "logic",
+    "core": true,
+    "description": "\"Checks the provided list of parameters and returns the single truthy value if exactly one is found, false otherwise, mimicking the logical XOR operator.\""
+  },
+  "🧩 OR": {
+    "category": "logic",
+    "core": true,
+    "description": "\"Checks a list of parameters and returns the first truthy value. If no truthy value is found, it returns false, mimicking the logical OR (||) operator.\""
+  },
+  "🧩 AND": {
+    "category": "logic",
+    "core": true,
+    "description": "\"Checks the provided list of parameters and returns the first falsy value it encounters. If all values are truthy, it returns the last truthy value, mimicking the logical AND\""
+  },
+  "🧩 WEIGHTED (Advanced)": {
+    "category": "logic",
+    "core": true,
+    "description": "Each condition contributes a score when its rule evaluates to true. The final result is true if the total score meets or exceeds the threshold."
+  },
+  "🧩 IF ELSE IF (Advanced)": {
+    "category": "logic",
+    "core": true,
+    "description": "Evaluates a set of conditions and returns a value based on the first matching rule."
+  },
+  "🧩 WEIGHTED (Predefined operators)": {
+    "category": "logic",
+    "core": true,
+    "description": "Each condition contributes a score when its rule evaluates to true. The final result is true if the total score meets or exceeds the threshold."
+  },
+  "🧩 IF ELSE IF (Predefined operators)": {
+    "category": "logic",
+    "core": true,
+    "description": "\"IF-ELSE-IF logic with predefined comparison operators (equals, contains, starts with, regex, numeric). Returns first match or default value.\""
+  },
+  "𝐎𝐁𝐉𝐄𝐂𝐓 Smart Generator - Object": {
+    "category": "gtm",
+    "core": true,
+    "description": "\"Transforms a source object by layering fixed, conditional, and rule-based properties. Existing properties can be preserved or overwritten. Supports custom setter for advanced assignment logic\""
+  },
+  "\"\"type\"\": \"\"user\"\"": {
+    "category": "\"\"age\"\": 30",
+    "core": false,
+    "description": "\"\"tier\"\": \"\"gold\"\""
+  },
+  "𝐎𝐁𝐉𝐄𝐂𝐓 From Arrays Generator - Object": {
+    "category": "gtm",
+    "core": true,
+    "description": "Maps two arrays or comma-separated strings into an object. Uses the keys array length as reference — missing values become undefined and extra values are ignored."
+  },
+  "𝐎𝐁𝐉𝐄𝐂𝐓 Transformer Generator (Advanced) - Object": {
+    "category": "gtm",
+    "core": true,
+    "description": "\"Transforms an object by renaming keys and applying functions to their values. Supports nested paths with dot notation, automatic structure creation, custom getter/setter functions.\""
+  },
+  "𝐀𝐑𝐑𝐀𝐘 From Values Generator - Array": {
+    "category": "gtm",
+    "core": true,
+    "description": "Creates an array from a simple table by extracting values from each row. Supports an optional transform function applied to each value before adding to the array."
+  },
+  "𝐀𝐑𝐑𝐀𝐘 From Indexed Values Generator - Array": {
+    "category": "gtm",
+    "core": true,
+    "description": "Creates an ordered array from indexed values. Items are placed at their specified index — gaps become undefined. Unindexed items can optionally be appended at the end."
+  },
+  "𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐓𝐀𝐁𝐋𝐄 Lazy Generator (Advanced) - Object": {
+    "category": "gtm",
+    "core": true,
+    "description": "Builds a parameter object combining global and event-specific parameters. Supports dlv and lzv types — event parameters evaluate only when the input matches their pattern."
+  }
+}
