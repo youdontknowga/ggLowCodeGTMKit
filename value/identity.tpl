@@ -1,0 +1,206 @@
+﻿___INFO___
+
+{
+  "type": "MACRO",
+  "id": "cvt_temp_public_id",
+  "version": 1,
+  "securityGroups": [],
+  "displayName": "identity",
+  "description": "Returns the source value as-is, acting as a passthrough function. Useful for applying output transformations or in pipelines where you need to preserve the original value.",
+  "containerContexts": [
+    "WEB"
+  ]
+}
+
+
+___TEMPLATE_PARAMETERS___
+
+[
+  {
+    "type": "GROUP",
+    "name": "paramSection",
+    "displayName": "𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯",
+    "groupStyle": "NO_ZIPPY",
+    "subParams": [
+      {
+        "type": "TEXT",
+        "name": "src",
+        "displayName": "Source Value",
+        "simpleValueType": true,
+        "help": "💾   The input value to return as-is.\u003cbr\u003e\u003cbr\u003e  Supported formats:\u003cbr\u003e \u0026nbsp;\u0026nbsp;✓ \u003cstrong\u003eAny\u003c/strong\u003e"
+      }
+    ],
+    "help": "Returns the input value unchanged. Useful as a passthrough function.\u003cbr\u003e\u003cbr\u003e*** \u003cem\u003eString passthrough\u003c/em\u003e***\u003cbr\u003eSource Value: \u003cstrong\u003ehello world\u003c/strong\u003e\u003cbr\u003e↪️ Output: \u003cstrong\u003ehello world\u003c/strong\u003e\u003cbr\u003e\u003cbr\u003e*** \u003cem\u003eNumber passthrough\u003c/em\u003e***\u003cbr\u003eSource Value: \u003cstrong\u003e42\u003c/strong\u003e\u003cbr\u003e↪️ Output: \u003cstrong\u003e42\u003c/strong\u003e"
+  },
+  {
+    "type": "GROUP",
+    "name": "Input Setup",
+    "displayName": "Input Setup",
+    "groupStyle": "ZIPPY_OPEN_ON_PARAM",
+    "subParams": [
+      {
+        "type": "TEXT",
+        "name": "pre",
+        "displayName": "Input Function (optional)",
+        "simpleValueType": true,
+        "help": "⚙️ Optional pre-processing function applied to the input before internal logic (e.g., convert object to string, normalize case). Internal transformations such as case handling will still apply afterward."
+      }
+    ]
+  },
+  {
+    "type": "GROUP",
+    "name": "Result Handling",
+    "displayName": "Result Handling",
+    "groupStyle": "ZIPPY_OPEN_ON_PARAM",
+    "subParams": [
+      {
+        "type": "TEXT",
+        "name": "out",
+        "displayName": "Output Function (optional)",
+        "simpleValueType": true,
+        "help": "⚙️ Optional function to apply to the result before returning it (e.g., str =\u003e str + ' €', val =\u003e val !== undefined for boolean conversion). Useful for chaining transformations on the output."
+      }
+    ]
+  }
+]
+
+___SANDBOXED_JS_FOR_WEB_TEMPLATE___
+
+/**
+* Returns the source value as-is.
+* 
+* @param {*} data.src - The input value to return.
+* @param {Function|string} [data.out] - Optional output handler: function to transform result or string with format.
+*
+* Direct-mode specific parameters:
+* @param {Function} [data.pre] - Optional pre-processor function to transform src before returning.
+* 
+* @returns {*} Returns the input src, optionally transformed by out.
+*
+* @framework ggLowCodeGTMKit
+*/
+const identity = function(value) {
+   return value;
+};
+
+const safeFunction = fn => typeof fn === 'function' ? fn : x => x;
+const out = safeFunction(data.out);
+
+// ===============================================================================
+// identity - Direct mode
+// ===============================================================================
+const applyCast = (castFn, value) => safeFunction(castFn)(value);
+const value = applyCast(data.pre, data.src);
+return out(identity(value));
+// ===============================================================================
+// identity() – Apply Mode
+// ===============================================================================
+/*
+return function(value) {
+  return out(identity(value));
+};
+*/
+
+
+___TESTS___
+
+scenarios:
+  - name: '[example] String passthrough'
+    code: |-
+      /* @display
+      Source Value: hello world
+      @output
+      hello world
+      */
+      const src = 'hello world';
+      const mockData = {
+          src: src
+      };
+      let variableResult;
+      if (isDirectMode) {
+          variableResult = runCode(mockData);
+      } else if (isApplyMode) {
+          const func = runCode(mockData);
+          variableResult = func(src);
+      }
+      assertThat(variableResult).isEqualTo('hello world');
+  - name: '[example] Number passthrough'
+    code: |-
+      /* @display
+      Source Value: 42
+      @output
+      42
+      */
+      const src = 42;
+      const mockData = {
+          src: src
+      };
+      let variableResult;
+      if (isDirectMode) {
+          variableResult = runCode(mockData);
+      } else if (isApplyMode) {
+          const func = runCode(mockData);
+          variableResult = func(src);
+      }
+      assertThat(variableResult).isEqualTo(42);
+  - name: Object input - should return unchanged
+    code: |-
+      const src = {name: 'John', age: 30};
+      const mockData = {
+          src: src
+      };
+      let variableResult;
+      if (isDirectMode) {
+          variableResult = runCode(mockData);
+      } else if (isApplyMode) {
+          const func = runCode(mockData);
+          variableResult = func(src);
+      }
+      assertThat(variableResult).isEqualTo({name: 'John', age: 30});
+  - name: Boolean input - should return unchanged
+    code: |-
+      const src = true;
+      const mockData = {
+          src: src
+      };
+      let variableResult;
+      if (isDirectMode) {
+          variableResult = runCode(mockData);
+      } else if (isApplyMode) {
+          const func = runCode(mockData);
+          variableResult = func(src);
+      }
+      assertThat(variableResult).isTrue();
+  - name: Null input - should return null
+    code: |
+      const src = null;
+      const mockData = {
+          src: src
+      };
+      let variableResult;
+      if (isDirectMode) {
+          variableResult = runCode(mockData);
+      } else if (isApplyMode) {
+          const func = runCode(mockData);
+          variableResult = func(src);
+      }
+      assertThat(variableResult).isNull();
+setup: |-
+  // Change this to switch test mode ('direct', or 'apply')
+  const mode = 'direct';
+  // ===================================================================================================
+  // Derived flags
+  // ===================================================================================================
+  const isDirectMode = mode === 'direct';
+  const isApplyMode = mode === 'apply'; 
+
+
+___NOTES___
+
+ggLowCodeGTMKit - The Composable Variable Framework
+Version: 0.0.1
+License: MIT
+
+📚 Documentation: https://library.youdontknowga.com/
+🐙 GitHub: https://github.com/youdontknowga/ggLowCodeGTMKit
+Created by Gwennaël Grandmougin

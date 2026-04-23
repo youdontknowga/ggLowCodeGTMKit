@@ -1,0 +1,29 @@
+{
+  "exportFormatVersion": 2,
+  "exportTime": "2026-04-04 12:58:26",
+  "containerVersion": {
+    "accountId": "0",
+    "containerId": "0",
+    "container": {
+      "publicId": "GTM-GENERATED"
+    },
+    "customTemplate": [
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "templateId": "tpl_extended_0",
+        "name": "Core - Execution Router",
+        "type": "MACRO",
+        "templateData": "___INFO___\n\n{\n  \"data\": {\n    \"categories\": [\n      \"Core Infrastructure\"\n    ],\n    \"description\": \"Handles the primary logic wrapper (apply/direct) for passing inputs between GTM Variables.\",\n    \"id\": \"core_execution_router\",\n    \"type\": \"MACRO\",\n    \"name\": \"Core - Execution Router\"\n  },\n  \"rules\": []\n}\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"mode\",\n    \"displayName\": \"Execution Mode\",\n    \"defaultValue\": \"apply\",\n    \"selectItems\": [\n      {\n        \"value\": \"direct\",\n        \"displayValue\": \"Direct Execution (Standalone)\"\n      },\n      {\n        \"value\": \"apply\",\n        \"displayValue\": \"Apply (Chain to next Input)\"\n      }\n    ]\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"src\",\n    \"displayName\": \"Source Input Value (src)\",\n    \"help\": \"Enter the name of the previous variable or static string to process.\"\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"out\",\n    \"displayName\": \"Output Target (out)\",\n    \"help\": \"If in apply mode, define the target transformation execution.\"\n  }\n]\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\n// Strict Sandboxed JS Execution Context\n// GTM prohibits throw(), standard try/catch logic is bypassed where possible\n\nconst mode = data.mode || \"apply\";\nconst src = data.src;\nconst out = data.out;\n\n// Safe generic fallback for missing src\nif (typeof src === \"undefined\" || src === null || src === \"\") {\n  return undefined;\n}\n\nif (mode === \"direct\") {\n  // Immediate string return logic\n  return src;\n}\n\nif (mode === \"apply\") {\n  // Simulated chaining syntax for downstream evaluation mapping\n  if (!out) {\n    return src; \n  }\n  return {\n    __gtm_chain_apply: true,\n    data: src,\n    target: out\n  };\n}\n\nreturn undefined;\n\n\n___WEB_PERMISSIONS___\n\n[\n  {\n    \"name\": \"execute_sandboxed_js\",\n    \"type\": \"boolean\",\n    \"value\": true\n  }\n]"
+      },
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "templateId": "tpl_extended_1",
+        "name": "Ecommerce - Parse Purchase Event",
+        "type": "MACRO",
+        "templateData": "___INFO___\n\n{\n  \"data\": {\n    \"categories\": [\n      \"Ecommerce\"\n    ],\n    \"description\": \"Extracts an ecommerce purchase payload from the input string.\",\n    \"id\": \"ecommerce_purchase_parser\",\n    \"type\": \"MACRO\",\n    \"name\": \"Ecommerce - Parse Purchase Event\"\n  },\n  \"rules\": []\n}\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"src\",\n    \"displayName\": \"Source Data (e.g. {{DataLayer - ecommerce}})\"\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"out\",\n    \"displayName\": \"Output Target (e.g. push to next stage)\"\n  }\n]\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\nconst src = data.src;\nif (!src || !src.purchase) return undefined;\n\nif (data.out) {\n  return {\n    __gtm_chain_apply: true,\n    data: src.purchase,\n    target: data.out\n  };\n}\n\nreturn src.purchase;\n\n\n___WEB_PERMISSIONS___\n\n[\n  {\n    \"name\": \"execute_sandboxed_js\",\n    \"type\": \"boolean\",\n    \"value\": true\n  }\n]"
+      }
+    ]
+  }
+}
