@@ -8,7 +8,7 @@ Welcome to the public repository for ggLowCodeGTMKit! This repository houses the
 
 For the full interactive documentation, robust "Try Live" sandboxes, courses, and the Waitlist for the upcoming AI Agent, please visit the official site:
 
-➡️ **[library.youdontknowga.com](https://library.youdontknowga.com)**
+➡️ **[youdontknowga.com](https://youdontknowga.com)**
 
 ## 🚀 Quick Start (60 Seconds)
 

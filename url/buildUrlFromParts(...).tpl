@@ -403,6 +403,6 @@ ggLowCodeGTMKit - The Composable Variable Framework
 Version: 0.0.1
 License: MIT
 
-📚 Documentation: https://library.youdontknowga.com/
+📚 Documentation: https://youdontknowga.com/
 🐙 GitHub: https://github.com/youdontknowga/ggLowCodeGTMKit
 Created by Gwennaël Grandmougin
